@@ -46,6 +46,18 @@ nav ul li a {
     color: #fff;            /*temporary*/
 }
 
+.navbar-toggler {
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.logo {
+   width: 12vw;
+   height: auto;
+   display: none;
+}
+
 #hero-quote{
     position: relative;
 }
@@ -119,5 +131,12 @@ nav ul li a {
 .footer-container{
     flex-direction: row;
 }
+
+.logo{
+    display: inline-block;
+}
+
+  
+
 
 }
