@@ -78,7 +78,8 @@ nav ul li a {
     top: 52vh;
     right: 40px;
     width: 30%;
-    background-color: rgba(235, 235, 235, 0.5); /*temporary*/
+    background-color: rgba(255, 255, 255, 0.829); /*temporary*/
+    border-radius: 12px;
     font-size: 2.2vw;
     text-align: center;
 }
@@ -88,26 +89,23 @@ nav ul li a {
 #home-container{
     display: flex;
     flex-direction: column;
-    height: 500px;
     width: 100%;
 }
 
-#home-first-section {
+#home-first-section, #home-second-section , #home-third-section  {
     background-color: rgb(177, 223, 204);   /*temporary*/
     flex:1;
     text-align: center;
+    padding: 0px 25px;
 }
 
-#home-second-section {
-    background-color: rgb(177, 223, 204); /*temporary*/
-    flex:1;
-    text-align: center;
+#home-container h1 {
+    padding-top: 20px;
+    font-size: 20px;
 }
 
-#home-third-section{
-    background-color: rgb(177, 223, 204); /*temporary*/
-    flex:1;
-    text-align: center;
+#home-container p {
+    font-size: 15px;
 }
 
 .home-icons{
@@ -124,24 +122,35 @@ nav ul li a {
     width: 100%;
 }
 
-.footer-first-section{
+.footer-first-section, .footer-second-section, .footer-third-section {
     background-color: rgb(221, 221, 221);   /*temporary*/
-    flex:1;
+    flex:1; 
+    text-align: center;
 }
 
-.footer-second-section{
-    background-color: rgb(221, 221, 221);
-    flex:1;
-}
 
-.footer-third-section{
-    background-color: rgb(221, 221, 221);
-    flex:1;
+.footer-logo{
+    width: 6vw;
+   height: auto;
+   
+   
 }
 
 /*----------- Media Quieries --------------*/
 
 @media screen and (min-width: 768px) {
+
+.logo{
+    display: inline-block;
+}
+
+#home-container h1 {
+    font-size: 25px;
+}
+
+}
+
+@media screen and (min-width: 992px) {
 
 #home-container{
     flex-direction: row;
@@ -150,11 +159,12 @@ nav ul li a {
 .footer-container{
     flex-direction: row;
 }
-
-.logo{
-    display: inline-block;
+    
 }
 
-  
+@media screen and (min-width: 1200px) {
 
+    #home-container h1 {
+    font-size: 35px;
+}
 }
