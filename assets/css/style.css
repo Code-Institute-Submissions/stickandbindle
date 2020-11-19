@@ -27,23 +27,34 @@ nav ul {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    width: 100%;
 }
 
 nav ul li {
-    background-color: pink; /*temporary*/
-    width: 19%;
-    margin: 0;
+    width: 14%;
+    height: 50%;
+    margin-top: 45px;
     text-align: center;
+    border: 2px solid rgb(68, 68, 68);
+    border-radius: 15px;
 }
 
 nav ul li:hover {
-    background-color: red; /*temporary*/
+    border: 2px solid black;
 }
+
+nav ul li:hover a{
+    color: black;
+    text-decoration: none;
+}
+
+
 
 nav ul li a {
     text-decoration: none;
+    font-size: 1.5vw;
     font-family: sans-serif;    /*temporary*/
-    color: #fff;            /*temporary*/
+    color: rgb(68, 68, 68);            /*temporary*/
 }
 
 .navbar-toggler {
@@ -53,7 +64,7 @@ nav ul li a {
 }
 
 .logo {
-   width: 12vw;
+   width: 11vw;
    height: auto;
    display: none;
 }
@@ -68,7 +79,7 @@ nav ul li a {
     right: 40px;
     width: 30%;
     background-color: rgba(235, 235, 235, 0.5); /*temporary*/
-    font-size: 2.5vw;
+    font-size: 2.2vw;
     text-align: center;
 }
 
@@ -82,18 +93,26 @@ nav ul li a {
 }
 
 #home-first-section {
-    background-color: rgb(236, 165, 165);   /*temporary*/
+    background-color: rgb(177, 223, 204);   /*temporary*/
     flex:1;
+    text-align: center;
 }
 
 #home-second-section {
-    background-color: rgb(202, 61, 61); /*temporary*/
+    background-color: rgb(177, 223, 204); /*temporary*/
     flex:1;
+    text-align: center;
 }
 
 #home-third-section{
-    background-color: rgb(148, 34, 34); /*temporary*/
+    background-color: rgb(177, 223, 204); /*temporary*/
     flex:1;
+    text-align: center;
+}
+
+.home-icons{
+    font-size: 50px;
+    padding: 40px 0px;
 }
 
 /*-------------- Footer --------------*/
@@ -106,17 +125,17 @@ nav ul li a {
 }
 
 .footer-first-section{
-    background-color: rgb(109, 221, 146);   /*temporary*/
+    background-color: rgb(221, 221, 221);   /*temporary*/
     flex:1;
 }
 
 .footer-second-section{
-    background-color: rgb(30, 172, 73);
+    background-color: rgb(221, 221, 221);
     flex:1;
 }
 
 .footer-third-section{
-    background-color: rgb(28, 110, 62);
+    background-color: rgb(221, 221, 221);
     flex:1;
 }
 
@@ -137,6 +156,5 @@ nav ul li a {
 }
 
   
-
 
 }
