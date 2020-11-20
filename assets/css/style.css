@@ -99,6 +99,11 @@ nav ul li a {
     padding: 0px 25px;
 }
 
+#home-second-section {
+    background-color: rgb(168, 212, 194); 
+
+}
+
 #home-container h1 {
     padding-top: 20px;
     font-size: 20px;
@@ -118,23 +123,64 @@ nav ul li a {
 .footer-container{
     display: flex;
     flex-direction: column;
-    height: 200px;
     width: 100%;
+    height: auto;
+    padding: 20px 25px;
+    background-color: rgb(221, 221, 221); /*temporary*/
 }
 
-.footer-first-section, .footer-second-section, .footer-third-section {
-    background-color: rgb(221, 221, 221);   /*temporary*/
+.footer-first-section, .footer-second-section, .footer-third-section { 
     flex:1; 
     text-align: center;
 }
 
+.footer-first-section {
+    margin-top: 20px;
+}
+
+.footer-second-section {
+    margin: 25px 0;
+}
 
 .footer-logo{
-    width: 6vw;
-   height: auto;
-   
-   
+    width: 80px;
+   height: auto; 
 }
+
+.footer-third-section {
+    margin-bottom: 20px;
+}
+
+.footer-third-section span {
+    font-size: 20px;
+}
+
+.footer-email {
+    display: inline-block;
+    margin: 10px 0px;
+} 
+
+
+.footer-icons {
+    width: 100%;
+    height: auto;
+}
+
+.footer-icons .fa {
+    font-size: 35px;
+}
+
+.fa-facebook-square {
+    float: left;
+    padding-left: 15px;
+    
+}
+
+.fa-instagram {
+    float: right;
+    padding-right: 15px;
+}
+
 
 /*----------- Media Quieries --------------*/
 
@@ -148,6 +194,23 @@ nav ul li a {
     font-size: 25px;
 }
 
+/*--------- Footer ----------------*/
+
+.footer-logo{
+    width: 100px;
+}
+
+.footer-icons {
+    width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-icons .fa {
+    font-size: 40px;
+}
+
 }
 
 @media screen and (min-width: 992px) {
@@ -156,8 +219,34 @@ nav ul li a {
     flex-direction: row;
 }
 
+/*--------- Footer ----------------*/
+
 .footer-container{
     flex-direction: row;
+}
+
+.footer-second-section{
+    position: relative;
+}
+
+.footer-logo {
+    position: absolute;
+    width: 130px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.footer-first-section, .footer-third-section {
+    margin: 0px;
+}
+
+.footer-third-section{
+    padding-top: 20px;
+}
+
+.footer-icons .fa {
+    font-size: 45px;
 }
     
 }
@@ -167,4 +256,14 @@ nav ul li a {
     #home-container h1 {
     font-size: 35px;
 }
+
+/*--------- Footer ----------------*/
+.footer-icons .fa {
+    font-size: 50px;
+}
+
+.footer-third-section{
+    padding-top: 10px;
+}
+
 }
