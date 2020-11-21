@@ -14,7 +14,7 @@ body{
 
 .nav-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     width: 100%;
     height: 50px;
 }
@@ -29,14 +29,15 @@ nav ul {
     justify-content: space-evenly;
     list-style: none;
     width: 100%;
+    
 }
 
 nav ul li {
     width: 100%;
     margin-top: 10px;
     text-align: center;
-    border: 2px solid rgb(68, 68, 68);
-    background-color: rgb(168, 212, 194);
+    border: 2px solid rgb(0, 0, 0);         /*temporary*/
+    background-color: rgb(168, 212, 194);   /*temporary*/
 }
 
 nav ul li:hover {
@@ -44,7 +45,7 @@ nav ul li:hover {
 }
 
 nav ul li:hover a{
-    color: black;
+    color: rgb(211, 211, 211);  /*temporary*/
     text-decoration: none;
 }
 
@@ -54,14 +55,17 @@ nav ul li a {
     text-decoration: none;
     font-size: 25px;
     font-family: sans-serif;    /*temporary*/
-    color: rgb(68, 68, 68);            /*temporary*/
+    color: rgb(0, 0, 0) /*temporary*/
 }
 
+
 .navbar-toggler {
-    float: right;
     margin-top: 10px;
     margin-right: 10px;
-}
+    font-size: 25px;
+    background-color: rgba(151, 151, 151,0.4);
+    border: 2px solid rgba(151, 151, 151,0.4);
+} /* Add hover class */
 
 .logo {
    width: 11vw;
@@ -107,6 +111,7 @@ nav ul li a {
 #home-container h1 {
     padding-top: 20px;
     font-size: 20px;
+    height: 70px;
 }
 
 #home-container p {
@@ -190,8 +195,12 @@ nav ul li a {
 
 .logo{
     display: inline-block;
+    width: 12vw;
+    height: auto;
+    margin-top: 0.2vh;
+    
 }
-/* Review*/
+
 .nav-container{
     display: flex;
     flex-direction: row;
@@ -209,12 +218,14 @@ nav ul {
     justify-content: space-evenly;
     list-style: none;
     width: 100%;
+    margin-top: 1rem;
+    padding-inline-start: 0px;
 }
 
 nav ul li {
     width: 14%;
     height: 50%;
-    margin-top: 45px;
+    margin-top: 4.3vh;
     text-align: center;
     border: 2px solid rgb(68, 68, 68,);
     border-radius: 15px;
@@ -223,7 +234,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    font-size: 1.5vw;
+    font-size: 2.5vw;
     font-family: sans-serif;    /*temporary*/
     color: black;            /*temporary*/
 }
@@ -255,11 +266,20 @@ nav ul li a {
 
 @media screen and (min-width: 992px) {
 
+/*--------- 992px Header --------------*/
+
+nav ul li {
+   
+}
+
+
+/*--------- 992px Main Content --------------*/
+
 #home-container{
     flex-direction: row;
 }
 
-/*--------- 992px Footer ----------------*/
+/*--------- 992px Footer -----------------------*/
 
 .footer-container{
     flex-direction: row;
@@ -293,11 +313,18 @@ nav ul li a {
 
 @media screen and (min-width: 1200px) {
 
+/*--------- 1200px Header ----------------------*/
+
+    nav ul li {
+    margin-top: 4.3vh;
+    
+}
+/*--------- 1200px Main Content ----------------*/
     #home-container h1 {
     font-size: 35px;
 }
 
-/*--------- Footer ----------------*/
+/*--------- 1200px Footer ---------------------*/
 .footer-icons .fa {
     font-size: 50px;
 }
