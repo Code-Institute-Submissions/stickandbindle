@@ -61,21 +61,23 @@ nav ul li a {
 
 
 .navbar-toggler {
-    margin-top: 5px;
-    margin-right: 5px;
-    font-size: 40px;
+    margin-right: 15px;
 } /* Add hover class */
 
 .navbar-toggler-icon {
-    background-color: rgba(151, 151, 151,0.4);
-    border: 2px solid rgba(151, 151, 151,0.9);
-    height: 1.1em;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    height: 8vh;
+}
+
+.navbar-toggler .fa {
+    font-size: 7vh;
 }
 
 .toggler-logo {
    margin-top: 4px;
+   margin-left: 15px;
     height: 10vh;
-    
+    padding: 5px;
 }
 
 .logo {
