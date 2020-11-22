@@ -150,11 +150,35 @@ nav ul li a {
     background-color: blue;
 }
 
-.content-right, .content-left{
+.content-right{
     flex: 2;
-    background-color: orangered;
+    background-color: rgb(79, 185, 235);
 }
 
+.content-left {
+    flex:2;
+    background-color: rgb(63, 172, 223);
+}
+
+.ethiopia-img {
+    background-image: url("../images/ethiopia.JPG");
+    background-size: cover;
+}
+
+.india-img {
+    background-image: url("../images/india.JPG");
+    background-size: cover;
+}
+
+.mongolia-img {
+    background-image: url("../images/mongolia.jpeg");
+    background-size: cover;
+}
+
+.mauritania-img {
+    background-image: url("../images/mauritania.jpg");
+    background-size: cover;
+}
 
 /*-------------- Footer ------------------------------------------------------------*/
 
@@ -163,13 +187,14 @@ nav ul li a {
     flex-direction: column;
     width: 100%;
     height: auto;
-    padding: 20px 25px;
+    padding-top: 10px;
     background-color: rgb(221, 221, 221); /*temporary*/
 }
 
 .footer-first-section, .footer-second-section, .footer-third-section { 
     flex:1; 
     text-align: center;
+    padding: 10px;
 }
 
 .footer-first-section {
