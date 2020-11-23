@@ -135,7 +135,7 @@ nav ul li a {
     padding: 40px 0px;
 }
 
-/*----- Trips.html Main Content -------*/
+/*----- trips.html Main Content -------*/
 
 .ethiopia, .india, .mongolia, .mauritania {
     display: flex;
@@ -204,6 +204,37 @@ nav ul li a {
 .gallery-image {
     width: 100%;
     height: auto;
+}
+
+/*------- contact.html main content ------*/
+
+.form-container {
+    background-color: aqua;
+    width:100%;
+    height: 40vh;
+}
+
+.review-container{
+    display:flex;
+    flex-direction: row;
+}
+
+.review-one{
+    background-color: yellow;
+    width:100%;
+    height: 30vh;
+}
+
+.review-two{
+    background-color: rgb(235, 235, 29);
+    width:100%;
+    height: 30vh;
+}
+
+.review-three{
+    background-color: yellow;
+    width:100%;
+    height: 30vh;
 }
 
 
