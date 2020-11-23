@@ -212,6 +212,7 @@ nav ul li a {
     background-color: aqua;
     width:100%;
     height: 40vh;
+    text-align: center;
 }
 
 .review-container{
