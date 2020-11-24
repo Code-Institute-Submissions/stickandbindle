@@ -147,48 +147,31 @@ nav ul li a {
     flex-direction: row;
     width: 100%;
     height: 40vh;
-    background-color: yellow;
+    padding-top: 20px;
+    background-color: #ebe9e9;
 }
 
 .image-left, .image-right {
+    display: flex;
     flex: 1;
     background-color: blue;
 }
 
-.content-right{
+.content-right, .content-left{
     flex: 2;
     background-color: rgb(79, 185, 235);
+    padding: 30px;
 }
 
-.content-left {
-    flex:2;
-    background-color: rgb(63, 172, 223);
-}
-
-.ethiopia-img {
-    background-image: url("https://i.imgur.com/w2ZaOMAh.jpg");
-    background-size: cover;
-}
-
-.india-img {
-    background-image: url("https://i.imgur.com/FFAQZpjh.jpg");
-    background-size: cover;
-}
-
-.mongolia-img {
-    background-image: url("https://i.imgur.com/5okVH5vh.jpg");
-    background-size: cover;
-}
-
-.mauritania-img {
-    background-image: url("https://i.imgur.com/FVuBrQ3h.jpg");
-    background-size: cover;
+#ethiopia-img, #india-img, #mongolia-img, #mauritania-img {
+    width: 100%;
+    height: auto;
 }
 
 /*------- gallery.html main content -------*/
 
 #gallery-section{
-    background-color: black;
+    background-color: #ebe9e9;
 }
 #gallery-title{
     height: 12vh;
