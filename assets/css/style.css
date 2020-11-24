@@ -85,6 +85,11 @@ nav ul li a {
    height: auto;
    max-height: 17vh;
    display: none;
+   border: none;
+}
+
+.logo:hover{
+    border: none;
 }
 
 #hero-quote-text{
@@ -337,7 +342,7 @@ nav ul {
     list-style: none;
     width: 100%;
     margin-top: 1rem;
-    padding-inline-start: 0px;
+    padding-left: 0px;
 }
 
 nav ul li {
@@ -345,7 +350,7 @@ nav ul li {
     height: 50%;
     margin-top: 4.3vh;
     text-align: center;
-    border: 2px solid rgb(68, 68, 68,);
+    border: 2px solid rgb(68, 68, 68);
     border-radius: 15px;
     background-color: transparent;
 }
