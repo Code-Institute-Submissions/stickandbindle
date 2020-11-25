@@ -142,31 +142,112 @@ nav ul li a {
 
 /*----- trips.html Main Content -------*/
 
-.ethiopia, .india, .mongolia, .mauritania {
-    display: flex;
-    flex-direction: row;
-    height: 40vh;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #ebe9e9;
+#cards{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.image-left, .image-right {
-    display: flex;
-    flex: 1;
+#cards-heading{
+    text-align: center;
+    height: 10vh;
 }
 
-
-.content-right, .content-left{
-    flex: 2;
-    background-color: rgb(79, 185, 235);
-    padding: 30px;
+#cards-heading h1{
+    color: rgb(80, 80, 80);
 }
 
-#ethiopia-img, #india-img, #mongolia-img, #mauritania-img {
+#ethiopia, #india, #mongolia, #mauritania {
+    border: 2px solid rgb(116, 116, 116);
+}
+#ethiopia{
+    background-image: url("https://i.imgur.com/w2ZaOMA.jpg");
+    background-size: cover;
     width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+#india{
+    background-image: url("https://i.imgur.com/FFAQZpj.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#mongolia{
+    background-image: url("https://i.imgur.com/5okVH5v.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#mauritania{
+     background-image: url("https://i.imgur.com/FVuBrQ3.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.trips-section h1 {
+    font-size: 35px;
+    color: black;
+}
+
+.trips-section p {
+    font-size: 17px;
+    color: black;
+}
+
+#content-eth {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 70px;
+    padding: 15px;
+    text-align: center;
+    width: 50%;
     height: auto;
+    position: absolute;
+    top: 48%;
+    left: 49%;
+}
+
+#content-ind {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 70px;
+    padding: 15px;
+    text-align: center;
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 66%;
+    left: 58%;
+}
+
+#content-mong {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 70px;
+    padding: 15px;
+    text-align: center;
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 18%;
+    left: 58%;
+}
+
+#content-maur {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 70px;
+    padding: 15px;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 18%;
+    left: 8%;
 }
 
 /*------- gallery.html main content -------*/
