@@ -39,6 +39,7 @@ nav ul li {
     text-align: center;
     border: 2px solid rgb(0, 0, 0);         /*temporary*/
     background-color: rgb(63, 172, 223);   /*temporary*/
+    z-index: 2;
 }
 
 nav ul li:hover {
@@ -122,7 +123,6 @@ nav ul li a {
 
 #home-second-section {
     background-color: rgb(63, 172, 223); 
-
 }
 
 #home-container h1 {
@@ -143,9 +143,13 @@ nav ul li a {
 /*----- trips.html Main Content -------*/
 
 #cards{
-    padding-top: 30px;
+    padding-top: 15px;
     padding-bottom: 30px;
     background-color:rgb(79, 185, 235);
+}
+
+#cards .container {
+    padding-top: 15px;
 }
 
 .card{
@@ -159,6 +163,7 @@ nav ul li a {
 
 #cards-heading h1{
     color: rgb(43, 43, 43);
+    line-height: 10vh;
 }
 
 #ethiopia, #india, #mongolia, #mauritania {
@@ -197,68 +202,32 @@ nav ul li a {
     position: relative;
 }
 
-.trips-section h1 {
-    font-size: 35px;
+#trips-section h1 {
+    font-size: 3.8vw;
     color: black;
 }
 
-.trips-section p {
-    font-size: 17px;
+#trips-section p {
+    font-size: 2.4vw;
     color: black;
 }
 
-#content-eth {
+#content-eth, #content-ind, #content-mong, #content-maur {
     background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 70px;
+    border-radius: 70px 70px 0px 0px;
     padding: 15px;
     text-align: center;
-    width: 50%;
-    height: auto;
+    width: auto;
+    height: 32%;
     position: absolute;
-    top: 48%;
-    left: 49%;
-}
-
-#content-ind {
-    background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 70px;
-    padding: 15px;
-    text-align: center;
-    width: 40%;
-    height: auto;
-    position: absolute;
-    top: 66%;
-    left: 58%;
-}
-
-#content-mong {
-    background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 70px;
-    padding: 15px;
-    text-align: center;
-    width: 40%;
-    height: auto;
-    position: absolute;
-    top: 18%;
-    left: 58%;
-}
-
-#content-maur {
-    background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 70px;
-    padding: 15px;
-    text-align: center;
-    width: 50%;
-    height: auto;
-    position: absolute;
-    top: 18%;
-    left: 8%;
+    top: 68%;
+    left: 0;
 }
 
 /*------- gallery.html main content -------*/
 
 #gallery-section{
-    background-color: rgb(43, 43, 43);;
+    background-color:rgb(79, 185, 235);
 }
 #gallery-title{
     height: 12vh;
@@ -271,7 +240,7 @@ nav ul li a {
 #gallery-title h1{
     margin-top: 0px; /* Override bootstrap default margin*/
     margin-bottom: 0px;
-    padding-top: 30px;
+    line-height: 12vh;
     color: rgb(43, 43, 43);
 }
 
@@ -287,22 +256,25 @@ nav ul li a {
     width: 40em;
     height: auto;
     position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .gallery-image {
     width: 99.5%;
-    height: auto;
-    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #ebe9e9;
 }
 /*Image captions*/
 .gallery-column-one p, .gallery-column-two p, .gallery-column-three p{
     visibility: hidden;
     position: absolute;
     display: inline;
-    bottom: 0;
-    left: 0;
+    bottom: 5%;
+    left: 5%;
     background-color: rgba(255, 255, 255, 0.541);
-    width: 100%;
+    width: 90%;
     height: auto;
     text-align: center;
     margin: 0px 0px 2px 0px;
@@ -530,6 +502,48 @@ nav ul li a {
     font-size: 25px;
 }
 
+/*-trips.html*/
+
+#trips-section h1 {
+    font-size: 35px;
+}
+
+#trips-section p {
+    font-size: 15px;
+}
+
+#content-eth {
+    width: 50%;
+    height: auto;
+    top:48%;
+    left: 49%;
+    border-radius: 70px 70px 0px;
+}
+
+#content-ind {
+    width: 55%;
+    height: auto;
+    top: 69%;
+    left: 44%;
+    border-radius: 70px 70px 0px;
+}
+
+#content-mong {
+    width: 70%;
+    height: auto;
+    top: 63%;
+    left: 28%;
+    border-radius: 70px 70px 0px;
+}
+
+#content-maur {
+    width: 50%;
+    height: auto;
+    top: 18%;
+    left: 8%;
+    border-radius: 70px 70px 0px;
+}
+
 /*--------- 768px Footer ----------------*/
 
 .footer-logo{
@@ -557,7 +571,7 @@ nav ul li a {
 
 
 /*--------- 992px Main Content --------------*/
-
+/*index.html*/
 #home-container{
     flex-direction: row;
 }
@@ -605,6 +619,19 @@ nav ul li a {
 /*--------- 1200px Main Content ----------------*/
     #home-container h1 {
     font-size: 35px;
+}
+
+/*trips.html*/
+#trips-section p {
+    font-size: 18px;
+}
+
+#content-mong {
+    width: 75%;
+    height: auto;
+    top: 5%;
+    left: 24%;
+    border-radius: 70px 70px 0px;
 }
 
 /*--------- 1200px Footer ---------------------*/
