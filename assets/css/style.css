@@ -143,8 +143,13 @@ nav ul li a {
 /*----- trips.html Main Content -------*/
 
 #cards{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:rgb(79, 185, 235);
+}
+
+.card{
+    border: 4px solid rgb(226, 226, 226);
 }
 
 #cards-heading{
@@ -153,7 +158,7 @@ nav ul li a {
 }
 
 #cards-heading h1{
-    color: rgb(80, 80, 80);
+    color: rgb(43, 43, 43);
 }
 
 #ethiopia, #india, #mongolia, #mauritania {
@@ -253,7 +258,7 @@ nav ul li a {
 /*------- gallery.html main content -------*/
 
 #gallery-section{
-    background-color: #ebe9e9;
+    background-color: rgb(43, 43, 43);;
 }
 #gallery-title{
     height: 12vh;
@@ -265,6 +270,9 @@ nav ul li a {
 
 #gallery-title h1{
     margin-top: 0px; /* Override bootstrap default margin*/
+    margin-bottom: 0px;
+    padding-top: 30px;
+    color: rgb(43, 43, 43);
 }
 
 .gallery-row-one, 
@@ -278,12 +286,33 @@ nav ul li a {
     display: block;
     width: 40em;
     height: auto;
+    position: relative;
 }
 
 .gallery-image {
-    width: 99%;
+    width: 99.5%;
     height: auto;
-    padding: 5px 10px 0px 10px;
+    
+}
+/*Image captions*/
+.gallery-column-one p, .gallery-column-two p, .gallery-column-three p{
+    visibility: hidden;
+    position: absolute;
+    display: inline;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.541);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0px 0px 2px 0px;
+    font-size: 22px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.gallery-column-one:hover p, .gallery-column-two:hover p, .gallery-column-three:hover p {
+    visibility: visible;
 }
 
 /*------- contact.html main content ------*/
