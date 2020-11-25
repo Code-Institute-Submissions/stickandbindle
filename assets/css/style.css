@@ -166,6 +166,10 @@ nav ul li a {
     line-height: 10vh;
 }
 
+#cards hr {
+    border-top: 2.5px solid rgba(0, 0, 0, 0.1);
+}
+
 #ethiopia, #india, #mongolia, #mauritania {
     border: 2px solid rgb(116, 116, 116);
 }
@@ -213,45 +217,60 @@ nav ul li a {
 }
 
 #content-eth, #content-ind, #content-mong, #content-maur {
-    background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 70px 70px 0px 0px;
+    background-color: rgba(255, 255, 255, 0.7);
     padding: 15px;
     text-align: center;
     width: auto;
-    height: 32%;
+    height: 30%;
     position: absolute;
-    top: 68%;
+    top: 70%;
     left: 0;
+}
+
+#content-mong p{
+    font-size: 2.3vw;
+}
+
+.down-arrow{
+    position:absolute;
+    top: 90%;
+    left: 49%;
+    font-size: 75px;
+}
+
+.down-arrow .fa, #up-arrow .fa {
+    color: #ebebeb;
+}
+
+#up-arrow{
+    position:absolute;
+    top: 0;
+    left: 49%;
+    font-size: 75px;
 }
 
 /*------- gallery.html main content -------*/
 
 #gallery-section{
     background-color:rgb(79, 185, 235);
+    width: 100%;
 }
 #gallery-title{
     height: 12vh;
     width: 100%;
-    font-size: 20px;
     text-align: center;
     background-color: rgb(79, 185, 235);
 }
 
 #gallery-title h1{
+    font-size: 30px;
     margin-top: 0px; /* Override bootstrap default margin*/
     margin-bottom: 0px;
     line-height: 12vh;
     color: rgb(43, 43, 43);
 }
 
-.gallery-row-one, 
-.gallery-row-two, 
-.gallery-row-three {
-    display: flex;
-    flex-direction: row;
-}
-
-.gallery-column-one, .gallery-column-two, .gallery-column-three {
+.image-container{
     display: block;
     width: 40em;
     height: auto;
@@ -267,7 +286,7 @@ nav ul li a {
     border: 2px solid #ebe9e9;
 }
 /*Image captions*/
-.gallery-column-one p, .gallery-column-two p, .gallery-column-three p{
+.image-container p{
     visibility: hidden;
     position: absolute;
     display: inline;
@@ -283,7 +302,7 @@ nav ul li a {
     padding-bottom: 5px;
 }
 
-.gallery-column-one:hover p, .gallery-column-two:hover p, .gallery-column-three:hover p {
+.image-container:hover p{
     visibility: visible;
 }
 
@@ -523,7 +542,7 @@ nav ul li a {
 #content-ind {
     width: 55%;
     height: auto;
-    top: 69%;
+    top: 60%;
     left: 44%;
     border-radius: 70px 70px 0px;
 }
@@ -571,10 +590,15 @@ nav ul li a {
 
 
 /*--------- 992px Main Content --------------*/
-/*index.html*/
+
 #home-container{
     flex-direction: row;
 }
+
+#gallery-title h1{
+    font-size: 40px;
+}
+
 
 /*--------- 992px Footer -----------------------*/
 
