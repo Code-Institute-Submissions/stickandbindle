@@ -20,14 +20,14 @@ body{
     background-color: #ebe9e9;
 }
 
-.transparent{
-    background-color: transparent!important;
-}
-
 nav {
     width: 100%;
     position: relative;
     z-index: 2;
+}
+
+.navbar{
+    padding: 0px; /*Overriding bootstrap default*/
 }
 
 nav ul {
@@ -75,7 +75,7 @@ nav ul li a {
 
 .toggler-logo {
     height: 10vh;
-    padding: 5px 5px 10px 5px;
+    padding: 3px;
 }
 
 .logo {
@@ -169,53 +169,26 @@ nav ul li a {
 
 #ethiopia, #india, #mongolia, #mauritania {
     border: 2px solid rgb(116, 116, 116);
-}
-#ethiopia{
-    background-image: url("https://i.imgur.com/w2ZaOMA.jpg");
-    background-size: cover;
+     background-size: cover;
     width: 100%;
     height: 100vh;
     position: relative;
-
+}
+#ethiopia{
+    background-image: url("https://i.imgur.com/w2ZaOMA.jpg");
 }
 
 #india{
     background-image: url("https://i.imgur.com/FFAQZpj.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    position: relative;
 }
 
 #mongolia{
     background-image: url("https://i.imgur.com/5okVH5v.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    position: relative;
 }
 
 #mauritania{
      background-image: url("https://i.imgur.com/FVuBrQ3.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    position: relative;
 }
-/*
-#trips-section h1 {
-    font-size: 3.8vw;
-    color: black;
-}
-
-#trips-section p {
-    font-size: 2.4vw;
-    color: black;
-} 
-#content-mong p{
-    font-size: 2.3vw;
-}
-*/
 
 #trips-section h1 {
     font-size: 35px;
@@ -223,40 +196,58 @@ nav ul li a {
 }
 
 #trips-section p {
-    font-size: 20px;
+    font-size: 14px;
     color: black;
 }
 
 #content-eth, #content-ind, #content-mong, #content-maur {
     background-color: rgba(255, 255, 255, 0.7);
-    padding: 15px;
+    padding: 10px 20px 0px 20px;
     text-align: center;
     width: auto;
     height: auto;
     position: absolute;
-    top: 55%;
     left: 0;
 }
 
+#content-eth{
+    top: 55%;
+}
+
+#content-ind{
+    top: 40%;
+}
+
+#content-mong{
+    top: 45%;
+}
+
+#content-maur{
+    top: 65%;
+}
+
 #content-mong p{
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .down-arrow{
     position:absolute;
-    top: 90%;
+    top: 89%;
     left: 49%;
+    transform: translate(-50%); /* source this code */
     font-size: 75px;
 }
 
 .down-arrow .fa, #up-arrow .fa {
-    color: #ebebeb;
+    color: #fafafa;
+    background-color: rgba(208, 208, 208, 0.2);
 }
 
 #up-arrow{
     position:absolute;
     top: 0;
     left: 49%;
+    transform: translate(-50%); /* source this code */
     font-size: 75px;
 }
 
@@ -274,10 +265,11 @@ nav ul li a {
 }
 
 #gallery-title h1{
-    font-size: 3.8vw;
+    font-size: 5vw;
     margin-top: 0px; /* Override bootstrap default margin*/
     margin-bottom: 0px;
-    line-height: 12vh;
+    padding-top: 2.7vh;
+    line-height: 1.3;
     color: rgb(43, 43, 43);
 }
 
@@ -357,6 +349,7 @@ nav ul li a {
     margin-left: auto;
     margin-right: auto;
     border-radius: 150px;
+    border: 2px solid #fafafa;
 }
 
 .customer-name {
@@ -463,6 +456,9 @@ nav ul li a {
 
 /*--------- 768px Header ---------------*/
 
+.transparent{
+    background-color: transparent!important;
+}
 
 #hero-quote{
     position: relative;
@@ -490,7 +486,7 @@ nav ul li a {
 
 #cards-heading h1, #gallery-title h1{
     font-size: 35px;
-} /* also heading for gallery page */
+} /* also for gallery page */
 
 #trips-section h1 {
     font-size: 35px;
@@ -501,35 +497,35 @@ nav ul li a {
 }
 
 #content-eth {
-    width: 50%;
+    width: 70%;
     height: auto;
-    top:48%;
-    left: 49%;
+    top:65%;
+    left: 28%;
     border-radius: 70px 70px 0px;
 }
 
 #content-ind {
-    width: 55%;
+    width: 70%;
     height: auto;
-    top: 60%;
-    left: 44%;
+    top: 62%;
+    left: 27%;
     border-radius: 70px 70px 0px;
 }
 
 #content-mong {
     width: 70%;
     height: auto;
-    top: 63%;
-    left: 28%;
-    border-radius: 70px 70px 0px;
+    top: 56%;
+    left: 5%;
+    border-radius: 70px 70px 70px 0px;
 }
 
 #content-maur {
     width: 50%;
     height: auto;
     top: 18%;
-    left: 8%;
-    border-radius: 70px 70px 0px;
+    left: 5%;
+    border-radius: 70px 70px 70px 0px;
 }
 
 /*--------- 768px Footer ----------------*/
