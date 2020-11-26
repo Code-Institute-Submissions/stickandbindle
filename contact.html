@@ -11,27 +11,35 @@
 <body>
 
 <header>
-        <div class="header-container"> 
-       
-            <div class="nav-container navbar-expand-md"> <!-- Nav bar-->
-                   
-                    <!-- Mobile toggler button-->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon fa fa-bars"></span>
-                    </button>
-                    <!-- End of Button code-->
-                    <nav> <img src="assets/images/stickandbindlelogo.png" alt="company logo" class="toggler-logo">   
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="trips.html">Trips</a></li>
-                        <li class="logo"><img src="assets/images/stickandbindlelogo.png" alt="company logo" class="logo"></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li class="selected"><a href="contact.html">Contact</a></li>
+        <div class="nav-container justify-content-center">
+            <nav class="navbar navbar-expand-lg">
+                <!--Logo for nav bar as toggler-->
+                <img src="assets/images/stickandbindlelogo.png" alt="company logo" class="toggler-logo">
+                <!-- toggler button for nav menu-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <i class="navbar-toggler-icon fa fa-bars"></i>
+                </button>   
+                <!-- nav bar menu items-->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trips.html">Trips</a>
+                    </li>
+                    <li class="nav-item logo">
+                        <img src="assets/images/stickandbindlelogo.png" alt="company logo" class="logo">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>    
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>     
                     </ul>
-                    </div>                
-                </nav>
-            </div>
+                </div>
+            </nav>
         </div>
 </header>
 
@@ -160,8 +168,8 @@
             </div>
         </div>
 </footer>
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Bootstrap cdn for the purpose of navbar toggler-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>

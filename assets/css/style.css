@@ -21,16 +21,18 @@ body{
 }
 
 nav {
-    width: 84vw;
+    width: 100%;
+    position: relative;
+    z-index: 2;
 }
 
 nav ul {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     list-style: none;
     width: 100%;
-    
+    background-color:  rgb(63, 172, 223);
+    padding: 0;
 }
 
 nav ul li {
@@ -38,7 +40,7 @@ nav ul li {
     margin-top: 10px;
     text-align: center;
     border: 2px solid rgb(0, 0, 0);         /*temporary*/
-    background-color: rgb(63, 172, 223);   /*temporary*/
+    background-color: #ebe9e9;   /*temporary*/
     z-index: 2;
 }
 
@@ -51,19 +53,12 @@ nav ul li:hover a{
     text-decoration: none;
 }
 
-
-
 nav ul li a {
     text-decoration: none;
     font-size: 25px;
     font-family: sans-serif;    /*temporary*/
     color: rgb(0, 0, 0) /*temporary*/
 }
-
-
-.navbar-toggler {
-    margin-right: 15px;
-} /* Add hover class */
 
 .navbar-toggler-icon {
     border: 2px solid rgba(0, 0, 0, 0.1);
@@ -75,8 +70,6 @@ nav ul li a {
 }
 
 .toggler-logo {
-   margin-top: 4px;
-   margin-left: 15px;
     height: 10vh;
     padding: 5px;
 }
@@ -102,7 +95,6 @@ nav ul li a {
 .header-container {
     background-color: rgb(221, 221, 221);
     width:100%;
-    height: 20vh;
 }
 
 
@@ -448,61 +440,6 @@ nav ul li a {
 
 /*--------- 768px Header ---------------*/
 
-.logo{
-    display: inline-block;
-    width: 12vw;
-    height: auto;
-    margin-top: 0.2vh;
-    
-}
-
-.nav-container{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 50px;
-    background-color: transparent;
-}
-
-nav {
-    width: 100%;
-}
-
-nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    list-style: none;
-    width: 100%;
-    margin-top: 1rem;
-    padding-left: 0px;
-}
-
-nav ul li {
-    width: 14%;
-    height: 50%;
-    margin-top: 4.3vh;
-    text-align: center;
-    border: 2px solid rgb(68, 68, 68);
-    border-radius: 15px;
-    background-color: transparent;
-}
-
-nav ul li a {
-    text-decoration: none;
-    font-size: 2.5vw;
-    font-family: sans-serif;    /*temporary*/
-    color: black;            /*temporary*/
-}
-
-.navbar-toggler{
-    display: none;
-}
-
-.toggler-logo{
-    display:none;
-}
-
 #hero-quote{
     position: relative;
 }
@@ -510,7 +447,7 @@ nav ul li a {
 #hero-quote-text{
     display:inline-block;
     position: absolute;
-    top: 52vh;
+    top: 40vh;
     right: 40px;
     width: 30%;
     background-color: rgba(255, 255, 255, 0.829); /*temporary*/
@@ -602,6 +539,63 @@ nav ul li a {
 
 
 /*--------- 992px Main Content --------------*/
+/*nav*/
+.logo{
+    display: inline-block;
+    width: 12vw;
+    height: auto;
+    margin-top: 0.2vh;
+    
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20vh;
+    background-color: transparent;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 100%;
+    margin-top: 1rem;
+    padding-left: 0px;
+    background-color: transparent;
+}
+
+nav ul li {
+    width: 14%;
+    height: 50%;
+    margin-top: 4.3vh;
+    text-align: center;
+    border: 2px solid rgb(68, 68, 68);
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 2.5vw;
+    font-family: sans-serif;    /*temporary*/
+    color: black;            /*temporary*/
+}
+
+.navbar-toggler{
+    display: none;
+}
+
+.toggler-logo{
+    display:none;
+}
+/*/nav*/
 
 #home-container{
     flex-direction: row;

@@ -12,26 +12,38 @@
 
 <header>
         <div class="heroimage"> <!--Header background image + nav bar + quote-->
-       
-            <div class="nav-container navbar-expand-md"> <!-- Nav bar-->
-                   
-                    <!-- Mobile toggler button-->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon fa fa-bars"></span>
-                    </button>
-                    <!-- End of Button code-->
-                    <nav> <img src="assets/images/stickandbindlelogo.png" alt="company logo" class="toggler-logo">   
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <ul>
-                        <li class="selected"><a href="index.html">Home</a></li>
-                        <li><a href="trips.html">Trips</a></li>
-                        <li class="logo"><img src="assets/images/stickandbindlelogo.png" alt="company logo" class="logo"></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+
+            <div class="nav-container justify-content-center">
+            <nav class="navbar navbar-expand-lg">
+                <!--Logo for nav bar as toggler-->
+                <img src="assets/images/stickandbindlelogo.png" alt="company logo" class="toggler-logo">
+                <!-- toggler button for nav menu-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <i class="navbar-toggler-icon fa fa-bars"></i>
+                </button>   
+                <!-- nav bar menu items-->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="">
+                    <li class="">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="">
+                        <a class="nav-link" href="trips.html">Trips</a>
+                    </li>
+                    <li class="nav-item logo">
+                        <img src="assets/images/stickandbindlelogo.png" alt="company logo" class="logo">
+                    </li>
+                    <li class="">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>    
+                    <li class="">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>     
                     </ul>
-                    </div>                
-                </nav>
-            </div>
+                </div>
+            </nav>
+        </div>
+            
             <div id="hero-quote"> <!--Header quote box-->
                 <span id="hero-quote-text">Life is either a daring adventure or nothing at all.</span>
             </div>
