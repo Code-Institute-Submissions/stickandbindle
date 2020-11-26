@@ -17,7 +17,11 @@ body{
     flex-direction: row-reverse;
     width: 100%;
     height: 11vh;
-    background-color: rgb(63, 172, 223);
+    background-color: #ebe9e9;
+}
+
+.transparent{
+    background-color: transparent!important;
 }
 
 nav {
@@ -31,7 +35,7 @@ nav ul {
     flex-direction: column;
     list-style: none;
     width: 100%;
-    background-color:  rgb(63, 172, 223);
+    background-color: #ebe9e9;
     padding: 0;
 }
 
@@ -40,7 +44,7 @@ nav ul li {
     margin-top: 10px;
     text-align: center;
     border: 2px solid rgb(0, 0, 0);         /*temporary*/
-    background-color: #ebe9e9;   /*temporary*/
+    background-color: rgb(146, 208, 186);   /*temporary*/
     z-index: 2;
 }
 
@@ -71,7 +75,7 @@ nav ul li a {
 
 .toggler-logo {
     height: 10vh;
-    padding: 5px;
+    padding: 5px 5px 10px 5px;
 }
 
 .logo {
@@ -107,14 +111,14 @@ nav ul li a {
 }
 
 #home-first-section, #home-second-section , #home-third-section  {
-    background-color: rgb(79, 185, 235);   /*temporary*/
+    background-color: rgb(146, 208, 186);   /*temporary*/
     flex:1;
     text-align: center;
     padding: 0px 25px;
 }
 
 #home-second-section {
-    background-color: rgb(63, 172, 223); 
+    background-color: rgb(124, 191, 167); 
 }
 
 #home-container h1 {
@@ -137,7 +141,7 @@ nav ul li a {
 #cards{
     padding-top: 15px;
     padding-bottom: 30px;
-    background-color:rgb(79, 185, 235);
+    background-color:rgb(146, 208, 186);
 }
 
 #cards .container {
@@ -156,6 +160,7 @@ nav ul li a {
 #cards-heading h1{
     color: rgb(43, 43, 43);
     line-height: 10vh;
+    font-size: 6vw;
 }
 
 #cards hr {
@@ -197,7 +202,7 @@ nav ul li a {
     height: 100vh;
     position: relative;
 }
-
+/*
 #trips-section h1 {
     font-size: 3.8vw;
     color: black;
@@ -206,6 +211,20 @@ nav ul li a {
 #trips-section p {
     font-size: 2.4vw;
     color: black;
+} 
+#content-mong p{
+    font-size: 2.3vw;
+}
+*/
+
+#trips-section h1 {
+    font-size: 35px;
+    color: black;
+}
+
+#trips-section p {
+    font-size: 20px;
+    color: black;
 }
 
 #content-eth, #content-ind, #content-mong, #content-maur {
@@ -213,14 +232,14 @@ nav ul li a {
     padding: 15px;
     text-align: center;
     width: auto;
-    height: 30%;
+    height: auto;
     position: absolute;
-    top: 70%;
+    top: 55%;
     left: 0;
 }
 
 #content-mong p{
-    font-size: 2.3vw;
+    font-size: 18px;
 }
 
 .down-arrow{
@@ -244,18 +263,18 @@ nav ul li a {
 /*------- gallery.html main content -------*/
 
 #gallery-section{
-    background-color:rgb(79, 185, 235);
+    background-color:rgb(146, 208, 186);
     width: 100%;
 }
 #gallery-title{
     height: 12vh;
     width: 100%;
     text-align: center;
-    background-color: rgb(79, 185, 235);
+    background-color: rgb(146, 208, 186);
 }
 
 #gallery-title h1{
-    font-size: 30px;
+    font-size: 3.8vw;
     margin-top: 0px; /* Override bootstrap default margin*/
     margin-bottom: 0px;
     line-height: 12vh;
@@ -301,7 +320,7 @@ nav ul li a {
 /*------- contact.html main content ------*/
 
 #form-section{
-    background-color: rgb(79, 185, 235);
+    background-color: #545454;
 }
 .form-container{
     background-color: #ebe9e9;
@@ -320,7 +339,7 @@ nav ul li a {
 }
 
 .review-one{
-    background-color: #ebe9e9;
+    background-color: rgb(146, 208, 186); 
     width:100%;
     height: auto;
     overflow: hidden;
@@ -333,7 +352,11 @@ nav ul li a {
 }
 
 .customer-img {
-    display: none;
+    display:block;
+    width: 23vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 150px;
 }
 
 .customer-name {
@@ -342,13 +365,13 @@ nav ul li a {
 }
 
 .review-two{
-    background-color: #dfdfdf;
+    background-color: rgb(124, 191, 167);
     width:100%;
     height: auto;
 }
 
 .review-three{
-    background-color: #ebe9e9;
+    background-color: rgb(146, 208, 186);
     width:100%;
     height: auto;
 }
@@ -377,7 +400,7 @@ nav ul li a {
     width: 100%;
     height: auto;
     padding-top: 10px;
-    background-color: rgb(221, 221, 221); /*temporary*/
+    background-color: #ebe9e9; /*temporary*/
 }
 
 .footer-first-section, .footer-second-section, .footer-third-section { 
@@ -440,6 +463,7 @@ nav ul li a {
 
 /*--------- 768px Header ---------------*/
 
+
 #hero-quote{
     position: relative;
 }
@@ -463,6 +487,10 @@ nav ul li a {
 }
 
 /*-trips.html*/
+
+#cards-heading h1, #gallery-title h1{
+    font-size: 35px;
+} /* also heading for gallery page */
 
 #trips-section h1 {
     font-size: 35px;
@@ -503,14 +531,6 @@ nav ul li a {
     left: 8%;
     border-radius: 70px 70px 0px;
 }
-/* contact.html */
-.customer-img{
-    display:block;
-    width: 24vw;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 150px;
-    }
 
 /*--------- 768px Footer ----------------*/
 
@@ -553,7 +573,7 @@ nav ul li a {
     flex-direction: row;
     width: 100%;
     height: 20vh;
-    background-color: transparent;
+    background-color: #ebe9e9;
 }
 
 nav {
@@ -661,6 +681,11 @@ nav ul li a {
 }
 
 /*trips.html*/
+
+#cards-heading h1, #gallery-title h1{
+    font-size: 45px;
+} /*Also heading for gallery page*/
+
 #trips-section p {
     font-size: 18px;
 }
