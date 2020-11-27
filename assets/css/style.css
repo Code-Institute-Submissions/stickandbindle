@@ -94,7 +94,7 @@ nav ul li a {
     display: none;
     font-style: italic;
     font-family: 'Neucha', cursive;
-    background-color: rgb(112, 195, 166);
+    background-color: #ebe9e9;
 }
 
 /*---- Trips.html header-----*/
@@ -137,7 +137,7 @@ nav ul li a {
 .home-icons{
     font-size: 50px;
     padding: 40px 0px;
-    color: rgb(61, 129, 105);
+    color: rgb(60, 140, 178);
 }
 
 /*----- trips.html Main Content -------*/
@@ -333,7 +333,7 @@ nav ul li a {
 /*------- contact.html main content ------*/
 
 #form-section{
-    background-color: rgb(112, 195, 166);;
+    background-color: rgb(95, 169, 204);
 }
 .form-container{
     background-color: #ebe9e9;
@@ -413,7 +413,7 @@ nav ul li a {
     width: 100%;
     height: auto;
     padding-top: 10px;
-    background-color: rgb(146, 208, 186); 
+    background-color: rgb(95, 169, 204); 
 }
 
 .footer-first-section, .footer-second-section, .footer-third-section { 
@@ -503,10 +503,10 @@ nav ul li a {
     top: 40vh;
     right: 40px;
     width: 30%;
-    background-color: rgba(255, 255, 255, 0.829); /*temporary*/
     border-radius: 12px;
     font-size: 2.2vw;
     text-align: center;
+    padding: 5px;
 }
 
 /*--------- 768px Main ------------------*/
