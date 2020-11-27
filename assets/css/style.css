@@ -2,7 +2,7 @@
 /*------------ Body --------------------------------------------------------*/
 body{
     margin: 0;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 /*------------ Header ------------------------------------------------------*/
 .heroimage{
@@ -27,7 +27,7 @@ nav {
 }
 
 .navbar{
-    padding: 0px; /*Overriding bootstrap default*/
+    padding: 0px 50px 0px 50px; /*Overriding bootstrap default*/
 }
 
 nav ul {
@@ -146,7 +146,8 @@ nav ul li a {
 }
 
 #cards .container {
-    padding-top: 15px;
+    padding: 15px 0px 0px 0px;
+    max-width: none; /*Overriding bootstrap default*/
 }
 
 .card{
@@ -205,7 +206,7 @@ nav ul li a {
 }
 
 #trips-section p {
-    font-size: 14px;
+    font-size: 17px;
     color: black;
 }
 
@@ -233,10 +234,6 @@ nav ul li a {
 
 #content-maur{
     top: 65%;
-}
-
-#content-mong p{
-    font-size: 14px;
 }
 
 .down-arrow{
