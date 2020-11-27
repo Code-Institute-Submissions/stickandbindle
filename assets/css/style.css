@@ -149,8 +149,8 @@ nav ul li a {
 }
 
 #cards .container {
-    padding: 15px 0px 0px 0px;
-    max-width: none; /*Overriding bootstrap default*/
+    padding-top: 15px;
+    
 }
 
 .card{
@@ -184,8 +184,8 @@ nav ul li a {
     border: 2px solid rgb(116, 116, 116);
      background-size: cover;
     width: 100%;
-    height: 100vh;
-    position: relative;
+    height: auto;
+    min-height: 40vh;
 }
 #ethiopia{
     background-image: url("https://i.imgur.com/w2ZaOMA.jpg");
@@ -204,12 +204,12 @@ nav ul li a {
 }
 
 #trips-section h1 {
-    font-size: 35px;
+    font-size: 18px;
     color: black;
 }
 
 #trips-section p {
-    font-size: 17px;
+    font-size: 13px;
     color: black;
 }
 
@@ -219,24 +219,12 @@ nav ul li a {
     text-align: center;
     width: auto;
     height: auto;
-    position: absolute;
     left: 0;
 }
 
-#content-eth{
-    top: 55%;
-}
-
-#content-ind{
-    top: 40%;
-}
-
-#content-mong{
-    top: 45%;
-}
-
-#content-maur{
-    top: 65%;
+#content-eth,#content-ind ,#content-mong ,#content-maur{
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .down-arrow{
@@ -250,6 +238,7 @@ nav ul li a {
 .down-arrow .fa, #up-arrow .fa {
     color: #fafafa;
     background-color: rgba(208, 208, 208, 0.2);
+    display: none;
 }
 
 #up-arrow{
@@ -460,6 +449,30 @@ nav ul li a {
 
 /*--------------- Media Quieries ----------------------------------------*/
 
+@media (min-width: 576px) {
+
+#trips-section p {
+    font-size: 15px;
+}
+
+#trips-section h1 {
+    font-size: 25px;
+}
+
+#ethiopia, #india, #mongolia, #mauritania {
+    height: 100vh;
+}
+
+#content-eth,#content-ind ,#content-mong ,#content-maur {
+    position: static;
+}
+
+.down-arrow .fa, #up-arrow .fa{
+    display: block;
+}
+
+}
+
 @media screen and (min-width: 768px) {
 
 /*--------- 768px Header ---------------*/
@@ -505,37 +518,40 @@ nav ul li a {
     font-size: 15px;
 }
 
-#content-eth {
-    width: 70%;
-    height: auto;
-    top:65%;
-    left: 28%;
-    border-radius: 70px 70px 0px;
+#ethiopia, #india, #mongolia, #mauritania {
+    position: static;
+    height: 100vh;
 }
 
-#content-ind {
+#content-eth, #content-ind, #content-mong, #content-maur {
     width: 70%;
     height: auto;
-    top: 62%;
-    left: 27%;
+    position: static;
     border-radius: 70px 70px 0px;
+    
 }
 
-#content-mong {
-    width: 70%;
-    height: auto;
-    top: 56%;
-    left: 5%;
+#content-eth{
+    margin-top: 5vh;
+    float: right;
+}
+
+#content-ind{
+    margin-top: 5vh;
+    float: right;
+}
+
+#content-mong{
+   margin-top: 5vh;
+    float: right;
+}
+
+#content-maur{
+    margin-top: 5vh;
+    float: right;
     border-radius: 70px 70px 70px 0px;
 }
 
-#content-maur {
-    width: 50%;
-    height: auto;
-    top: 18%;
-    left: 5%;
-    border-radius: 70px 70px 70px 0px;
-}
 
 /*--------- 768px Footer ----------------*/
 
@@ -695,14 +711,6 @@ nav ul li a {
 
 #trips-section p {
     font-size: 18px;
-}
-
-#content-mong {
-    width: 75%;
-    height: auto;
-    top: 5%;
-    left: 24%;
-    border-radius: 70px 70px 0px;
 }
 
 /*--------- 1200px Footer ---------------------*/
