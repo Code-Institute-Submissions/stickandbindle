@@ -92,6 +92,9 @@ nav ul li a {
 
 #hero-quote-text{
     display: none;
+    font-style: italic;
+    font-family: 'Neucha', cursive;
+    background-color: rgb(112, 195, 166);
 }
 
 /*---- Trips.html header-----*/
@@ -318,7 +321,7 @@ nav ul li a {
 /*------- contact.html main content ------*/
 
 #form-section{
-    background-color: #545454;
+    background-color: rgb(112, 195, 166);;
 }
 .form-container{
     background-color: #ebe9e9;
