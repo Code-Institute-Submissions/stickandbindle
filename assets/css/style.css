@@ -2,6 +2,7 @@
 /*------------ Body --------------------------------------------------------*/
 body{
     margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
 }
 /*------------ Header ------------------------------------------------------*/
 .heroimage{
@@ -60,7 +61,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 25px;
     font-family: sans-serif;    /*temporary*/
-    color: rgb(0, 0, 0) /*temporary*/
+    color: rgb(0, 0, 0); /*temporary*/
 }
 
 .navbar-toggler-icon {
@@ -400,7 +401,7 @@ nav ul li a {
     width: 100%;
     height: auto;
     padding-top: 10px;
-    background-color: rgb(82, 162, 134); 
+    background-color: rgb(146, 208, 186); 
 }
 
 .footer-first-section, .footer-second-section, .footer-third-section { 
@@ -462,10 +463,6 @@ nav ul li a {
 @media screen and (min-width: 768px) {
 
 /*--------- 768px Header ---------------*/
-
-.transparent{
-    background-color: transparent!important;
-}
 
 #hero-quote{
     position: relative;
@@ -563,7 +560,9 @@ nav ul li a {
 
 /*--------- 992px Header --------------*/
 
-
+.transparent{
+    background-color: transparent!important;
+}
 
 
 /*--------- 992px Main Content --------------*/
@@ -605,7 +604,7 @@ nav ul li {
     margin-top: 4.3vh;
     text-align: center;
     border: 2px solid rgb(68, 68, 68);
-    border-radius: 15px;
+    border-radius: 30px;
     background-color: transparent;
 }
 
