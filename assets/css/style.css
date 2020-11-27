@@ -187,20 +187,40 @@ nav ul li a {
     height: auto;
     min-height: 40vh;
 }
-#ethiopia{
-    background-image: url("https://i.imgur.com/w2ZaOMA.jpg");
+#ethiopia, #india,#mongolia,#mauritania{
+    background-color: #ebe9e9;
 }
 
-#india{
+.background-india{
     background-image: url("https://i.imgur.com/FFAQZpj.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width:auto;
 }
 
-#mongolia{
+.background-ethiopia{
+    background-image: url("https://i.imgur.com/w2ZaOMA.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width:auto;
+}
+
+.background-mongolia{
     background-image: url("https://i.imgur.com/5okVH5v.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width:auto;
 }
 
-#mauritania{
-     background-image: url("https://i.imgur.com/FVuBrQ3.jpg");
+.background-mauritania{
+    background-image: url("https://i.imgur.com/FVuBrQ3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    width:auto;
 }
 
 #trips-section h1 {
@@ -211,6 +231,8 @@ nav ul li a {
 #trips-section p {
     font-size: 13px;
     color: black;
+    margin-bottom: 0px;
+    padding-bottom: 1rem;
 }
 
 #content-eth, #content-ind, #content-mong, #content-maur {
@@ -228,24 +250,25 @@ nav ul li a {
 }
 
 .down-arrow{
-    position:absolute;
-    top: 89%;
-    left: 49%;
-    transform: translate(-50%); /* source this code */
+    position: relative;
     font-size: 75px;
+}
+.down-arrow a{
+    position: absolute;
+    bottom:0;
+    left:49%;
 }
 
 .down-arrow .fa, #up-arrow .fa {
-    color: #fafafa;
-    background-color: rgba(208, 208, 208, 0.2);
+    color: #000000;
+    background-color: transparent;
     display: none;
 }
 
 #up-arrow{
-    position:absolute;
-    top: 0;
-    left: 49%;
-    transform: translate(-50%); /* source this code */
+    position:static;
+    display: flex;
+    justify-content: center;
     font-size: 75px;
 }
 
@@ -459,17 +482,10 @@ nav ul li a {
     font-size: 25px;
 }
 
-#ethiopia, #india, #mongolia, #mauritania {
-    height: 100vh;
-}
-
 #content-eth,#content-ind ,#content-mong ,#content-maur {
     position: static;
 }
 
-.down-arrow .fa, #up-arrow .fa{
-    display: block;
-}
 
 }
 
@@ -501,6 +517,26 @@ nav ul li a {
 
 /*-trips.html*/
 
+#ethiopia{
+    background-image: url("https://i.imgur.com/w2ZaOMA.jpg");
+}
+
+#india{
+    background-image: url("https://i.imgur.com/FFAQZpj.jpg");
+}
+
+#mongolia{
+    background-image: url("https://i.imgur.com/5okVH5v.jpg");
+}
+
+#mauritania{
+    background-image: url("https://i.imgur.com/FVuBrQ3.jpg");
+}
+
+.background-india,.background-ethiopia,.background-mauritania,.background-mongolia{
+    display: none;
+}
+
 .card{
     width: 100%;
     margin: 0;
@@ -516,6 +552,10 @@ nav ul li a {
 
 #trips-section p {
     font-size: 15px;
+}
+
+.background-india{
+    display: none;
 }
 
 #ethiopia, #india, #mongolia, #mauritania {
@@ -552,6 +592,9 @@ nav ul li a {
     border-radius: 70px 70px 70px 0px;
 }
 
+.down-arrow .fa, #up-arrow .fa{
+    display: none; /* change when fixed */
+}
 
 /*--------- 768px Footer ----------------*/
 
