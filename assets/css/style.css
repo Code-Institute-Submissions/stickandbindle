@@ -12,6 +12,10 @@ body{
     height: 75vh;
 }
 
+header{
+  overflow: hidden;
+}
+
 .nav-container{
     display: flex;
     flex-direction: row-reverse;
@@ -741,6 +745,23 @@ nav ul li a {
     margin-top: 4.3vh;
     
 }
+
+.heroimage{
+    animation-name: image-zoom;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes image-zoom {
+  from {
+
+    background-position: 0 50%;
+  }
+  to {
+    background-position: 0 40%;
+  }
+} 
+
 /*--------- 1200px Main Content ----------------*/
     #home-container h1 {
     font-size: 35px;
