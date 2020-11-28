@@ -12,7 +12,7 @@ body{
     height: 75vh;
 }
 
-header{
+#index-header{
   overflow: hidden;
 }
 
@@ -47,8 +47,8 @@ nav ul li {
     width: 100%;
     margin-top: 10px;
     text-align: center;
-    border: 2px solid rgb(0, 0, 0);         /*temporary*/
-    background-color: rgb(146, 208, 186);   /*temporary*/
+    border: 2px solid rgb(0, 0, 0);         
+    background-color: rgb(95, 169, 204);    
     z-index: 2;
 }
 
@@ -85,6 +85,7 @@ nav ul li a {
 .logo {
    width: 11vw;
    height: auto;
+   min-height:60px;
    max-height: 17vh;
    display: none;
    border: none;
