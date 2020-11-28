@@ -506,11 +506,11 @@ nav ul li a {
     position: absolute;
     top: 40vh;
     right: 40px;
-    width: 30%;
+    width: 40%;
     border-radius: 12px;
-    font-size: 2.2vw;
+    font-size: 3.5vw;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
 }
 
 /*--------- 768px Main ------------------*/
@@ -627,6 +627,10 @@ nav ul li a {
     background-color: transparent!important;
 }
 
+#hero-quote-text{
+    top: 35vh;
+    font-size: 2.5vw;
+}
 
 /*--------- 992px Main Content --------------*/
 /*nav*/
@@ -761,6 +765,12 @@ nav ul li a {
     background-position: 0 40%;
   }
 } 
+
+#hero-quote-text {
+    font-size: 2.2vw;
+    padding: 5px;
+    width: 30%;
+}
 
 /*--------- 1200px Main Content ----------------*/
     #home-container h1 {
