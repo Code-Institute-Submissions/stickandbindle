@@ -2,7 +2,16 @@
 /*------------ Body --------------------------------------------------------*/
 body{
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+nav ul li a {
+    font-family: 'Pridi', serif;
+    font-weight: 300;
 }
 /*------------ Header ------------------------------------------------------*/
 .heroimage{
@@ -47,7 +56,8 @@ nav ul li {
     width: 100%;
     margin-top: 10px;
     text-align: center;
-    border: 2px solid rgb(0, 0, 0);         
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;         
     background-color: rgb(95, 169, 204);    
     z-index: 2;
 }
@@ -64,17 +74,16 @@ nav ul li:hover a{
 nav ul li a {
     text-decoration: none;
     font-size: 25px;
-    font-family: sans-serif;    /*temporary*/
     color: rgb(0, 0, 0); /*temporary*/
 }
 
 .navbar-toggler-icon {
     border: 2px solid rgba(0, 0, 0, 0.1);
-    height: 8vh;
+    height: auto;
 }
 
 .navbar-toggler .fa {
-    font-size: 7vh;
+    font-size: 7.5vh;
 }
 
 .toggler-logo {
@@ -178,11 +187,6 @@ nav ul li a {
 
 #cards hr {
     border-top: 2.5px solid rgba(0, 0, 0, 0.1);
-}
-
-.btn-primary{
-    background-color: rgb(48, 160, 85);
-    border-color: black;
 }
 
 #ethiopia, #india, #mongolia, #mauritania {
@@ -372,7 +376,7 @@ nav ul li a {
     margin-left: auto;
     margin-right: auto;
     border-radius: 150px;
-    border: 2px solid #fafafa;
+    border: 3px solid #fafafa;
 }
 
 .customer-name {
@@ -457,6 +461,11 @@ nav ul li a {
 .footer-icons {
     width: 100%;
     height: auto;
+    color: black;
+}
+
+.footer-icons a{
+    color: black;
 }
 
 .footer-icons .fa {
@@ -671,7 +680,8 @@ nav ul li {
     height: 50%;
     margin-top: 4.3vh;
     text-align: center;
-    border: 2px solid rgb(68, 68, 68);
+    border:none;
+    border-bottom: 8px solid rgb(68, 68, 68);
     border-radius: 30px;
     background-color: transparent;
 }
@@ -679,10 +689,17 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     font-size: 2.5vw;
-    font-family: sans-serif;    /*temporary*/
-    color: black;            /*temporary*/
+    color: black;           
 }
 
+nav ul li:hover {
+    border:none;
+    border-bottom: 4px solid rgb(68, 68, 68);
+}
+
+nav ul li:hover a{
+    color: rgb(19, 82, 177);
+}
 .navbar-toggler{
     display: none;
 }
