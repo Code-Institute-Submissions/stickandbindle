@@ -1,5 +1,5 @@
 
-/*------------ Body --------------------------------------------------------*/
+/*------------ Body/Fonts --------------------------------------------------------*/
 body{
     margin: 0;
     font-family: 'Lato', sans-serif;
@@ -131,7 +131,7 @@ nav ul li a {
     background-color: #ebe9e9;   
     flex:1;
     text-align: center;
-    padding: 0px 25px;
+    padding: 0px 20px 15px 20px;
 }
 
 #home-second-section {
@@ -145,7 +145,18 @@ nav ul li a {
 }
 
 #home-container p {
-    font-size: 15px;
+    font-size: 18px;
+}
+
+#home-container li {
+    font-size: 19px;
+    padding: 6px;
+    border-bottom: 1px solid rgba(97,97,97, 0.4);
+    list-style-type: none;
+}
+
+#home-container ul {
+    padding: 0;
 }
 
 .home-icons{
