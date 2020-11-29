@@ -165,6 +165,25 @@ nav ul li a {
     color: rgb(60, 140, 178);
 }
 
+#destinations{
+    position: relative;
+    height: 20vh;
+    background-color: #ebe9e9;
+}
+
+#call-to-action{
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%); /* Stack Overflow */
+}
+
+#home-button{
+    background-color: #35a5da;
+    border: 1.5px solid #4a4a4a;
+    font-size: 4vw;
+}
+
 /*----- trips.html Main Content -------*/
 
 #cards{
@@ -280,8 +299,8 @@ nav ul li a {
 }
 
 .down-arrow .fa, #up-arrow .fa {
-    color: #ebe9e9;
-    background-color: rgba(0, 0, 0, 0.2);
+    color: rgb(95, 169, 204);
+    background-color: rgba(255, 255, 255, 0.2);
     display: none;
     text-decoration: none;
 }
@@ -539,6 +558,10 @@ nav ul li a {
 
 #home-container h1 {
     font-size: 25px;
+}
+
+#home-button{
+    font-size: 2vw;
 }
 
 /*-trips.html*/
@@ -805,6 +828,10 @@ nav ul li:hover a{
 /*--------- 1200px Main Content ----------------*/
     #home-container h1 {
     font-size: 35px;
+}
+
+#home-button{
+    font-size: 1.7vw;
 }
 
 /*trips.html*/
