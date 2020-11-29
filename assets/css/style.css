@@ -67,14 +67,14 @@ nav ul li:hover {
 }
 
 nav ul li:hover a{
-    color: rgb(255, 255, 255);  /*temporary*/
+    color: rgb(255, 255, 255);  
     text-decoration: none;
 }
 
 nav ul li a {
     text-decoration: none;
     font-size: 25px;
-    color: rgb(0, 0, 0); /*temporary*/
+    color: rgb(0, 0, 0); 
 }
 
 .navbar-toggler-icon {
@@ -261,17 +261,21 @@ nav ul li a {
 .down-arrow{
     position: relative;
     font-size: 75px;
+    height: 100%;
+    width: auto;
 }
 .down-arrow a{
     position: absolute;
     bottom:0;
-    left:49%;
+    left:50%;
+    transform: translateX(-50%); /* Source: Stack Overflow */
 }
 
 .down-arrow .fa, #up-arrow .fa {
-    color: #000000;
-    background-color: transparent;
+    color: #ebe9e9;
+    background-color: rgba(0, 0, 0, 0.2);
     display: none;
+    text-decoration: none;
 }
 
 #up-arrow{
@@ -607,7 +611,7 @@ nav ul li a {
 }
 
 .down-arrow .fa, #up-arrow .fa{
-    display: none; /* change when fixed */
+    display: block; 
 }
 
 /*--------- 768px Footer ----------------*/
