@@ -220,7 +220,7 @@ nav ul li a {
 }
 
 .background-ethiopia{
-    background-image: url("https://i.imgur.com/w2ZaOMA.jpg");
+    background-image: url("https://i.imgur.com/hDjXYzp.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 50vh;
@@ -256,18 +256,15 @@ nav ul li a {
 }
 
 #content-eth, #content-ind, #content-mong, #content-maur {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 10px 20px 0px 20px;
     text-align: center;
     width: auto;
     height: auto;
     left: 0;
+    top: 0;
 }
 
-#content-eth,#content-ind ,#content-mong ,#content-maur{
-    top: 0;
-    background-color: rgba(255, 255, 255, 0.5);
-}
 
 .down-arrow{
     position: relative;
@@ -547,7 +544,7 @@ nav ul li a {
 /*-trips.html*/
 
 #ethiopia{
-    background-image: url("https://i.imgur.com/w2ZaOMA.jpg");
+    background-image: url("https://i.imgur.com/hDjXYzp.jpg");
 }
 
 #india{
@@ -617,7 +614,7 @@ nav ul li a {
 
 #content-maur{
     margin-top: 5vh;
-    float: right;
+    float: left;
     border-radius: 70px 70px 70px 0px;
 }
 
@@ -657,8 +654,6 @@ nav ul li a {
     font-size: 2.5vw;
 }
 
-/*--------- 992px Main Content --------------*/
-/*nav*/
 .logo{
     display: inline-block;
     width: 12vw;
@@ -722,7 +717,9 @@ nav ul li:hover a{
 .toggler-logo{
     display:none;
 }
-/*/nav*/
+/*--------- 992px Main Content --------------*/
+
+
 
 #home-container{
     flex-direction: row;
@@ -817,7 +814,7 @@ nav ul li:hover a{
 } /*Also heading for gallery page*/
 
 #trips-section p {
-    font-size: 18px;
+    font-size: 1.3vw;
 }
 
 /*--------- 1200px Footer ---------------------*/
