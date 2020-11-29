@@ -13,7 +13,7 @@ nav ul li a {
     font-family: 'Pridi', serif;
     font-weight: 300;
 }
-/*------------ Header ------------------------------------------------------*/
+/*------------ Headers ------------------------------------------------------*/
 .heroimage{
     background-image: url("https://source.unsplash.com/3xpalrYpiwo/1920x1280");
     background-position: center;
@@ -111,7 +111,7 @@ nav ul li a {
     background-color: #ebe9e9;
 }
 
-/*---- Trips.html header-----*/
+/*---- Trips.html, Gallery.html, Contact.html Header-----*/
 
 .header-container {
     background-color: rgb(221, 221, 221);
@@ -353,7 +353,7 @@ nav ul li a {
     margin-bottom: 15px;
     border: 2px solid #ebe9e9;
 }
-/*Image captions*/
+
 .image-container p{
     visibility: hidden;
     position: absolute;
@@ -597,7 +597,7 @@ nav ul li a {
 
 #cards-heading h1, #gallery-title h1{
     font-size: 35px;
-} /* also for gallery page */
+} 
 
 #trips-section h1 {
     font-size: 35px;
@@ -746,8 +746,6 @@ nav ul li:hover a{
 }
 /*--------- 992px Main Content --------------*/
 
-
-
 #home-container{
     flex-direction: row;
 }
@@ -756,7 +754,7 @@ nav ul li:hover a{
     font-size: 40px;
 }
 
-/* contact.html */
+/*-- contact.html --*/
 .customer{
     width: 100%;
     }
@@ -779,9 +777,9 @@ nav ul li:hover a{
 .footer-logo {
     position: absolute;
     width: 130px;
-   top: 50%;                            /* code sourced from freecodecamp.org */
-   left: 50%;                           /* code sourced from freecodecamp.org */
-   transform: translate(-50%, -50%);    /* code sourced from freecodecamp.org */
+    top: 50%;                            
+    left: 50%;                           
+    transform: translate(-50%, -50%);    /* code sourced from freecodecamp.org */
 }
 
 .footer-first-section, .footer-third-section {
@@ -808,7 +806,7 @@ nav ul li:hover a{
 }
 
 .heroimage{
-    animation-name: image-zoom;
+    animation-name: image-zoom;         /*source??*/
     animation-duration: 6s;
     animation-fill-mode: forwards;
 }
@@ -842,7 +840,7 @@ nav ul li:hover a{
 
 #cards-heading h1, #gallery-title h1{
     font-size: 45px;
-} /*Also heading for gallery page*/
+} 
 
 #trips-section p {
     font-size: 1.3vw;
