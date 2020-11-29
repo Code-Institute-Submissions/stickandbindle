@@ -3,6 +3,7 @@
 body{
     margin: 0;
     font-family: 'Lato', sans-serif;
+    font-display: swap;
 }
 
 h1,h2,h3 {
@@ -221,6 +222,10 @@ nav ul li a {
 
 #cards hr {
     border-top: 2.5px solid rgba(0, 0, 0, 0.1);
+}
+
+#cards h2 {
+    font-size: 1.5rem;
 }
 
 #ethiopia, #india, #mongolia, #mauritania {
