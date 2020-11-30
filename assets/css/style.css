@@ -592,7 +592,7 @@ nav ul li a {
 }
 
 #background-india,#background-ethiopia,#background-mauritania,#background-mongolia{
-    display: none;
+    display: none; /* Turning off mobile image backgrounds */
 }
 
 .card{
