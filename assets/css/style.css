@@ -239,7 +239,7 @@ nav ul li a {
     background-color: #ebe9e9;
 }
 
-.background-india{
+#background-india{
     background-image: url("https://i.imgur.com/FFAQZpj.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -247,7 +247,7 @@ nav ul li a {
     width:auto;
 }
 
-.background-ethiopia{
+#background-ethiopia{
     background-image: url("https://i.imgur.com/hDjXYzp.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -255,7 +255,7 @@ nav ul li a {
     width:auto;
 }
 
-.background-mongolia{
+#background-mongolia{
     background-image: url("https://i.imgur.com/5okVH5v.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -263,7 +263,7 @@ nav ul li a {
     width:auto;
 }
 
-.background-mauritania{
+#background-mauritania{
     background-image: url("https://i.imgur.com/FVuBrQ3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -591,7 +591,7 @@ nav ul li a {
     background-image: url("https://i.imgur.com/FVuBrQ3.jpg");
 }
 
-.background-india,.background-ethiopia,.background-mauritania,.background-mongolia{
+#background-india,#background-ethiopia,#background-mauritania,#background-mongolia{
     display: none;
 }
 
