@@ -79,12 +79,16 @@ nav ul li a {
 }
 
 .navbar-toggler-icon {
-    border: 2px solid rgba(0, 0, 0, 0.1);
     height: auto;
 }
 
 .navbar-toggler .fa {
     font-size: 7.5vh;
+}
+
+.nav-container button:focus, .nav-container button:hover{
+    outline: none;
+    border: 1px solid rgba(95, 95, 95,0.5);
 }
 
 .toggler-logo {
