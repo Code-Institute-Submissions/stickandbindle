@@ -116,6 +116,11 @@ nav ul li a {
     background-color: #ebe9e9;
 }
 
+#quote-author{
+    font-size: 1vw;
+    display:none;
+}
+
 /*---- Trips.html, Gallery.html, Contact.html Header-----*/
 
 .header-container {
@@ -565,6 +570,10 @@ nav ul li a {
     font-size: 3.5vw;
     text-align: center;
     padding: 10px;
+}
+
+#quto-author{
+    display: inline;
 }
 
 /*--------- 768px Main ------------------*/
