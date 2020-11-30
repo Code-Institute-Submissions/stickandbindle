@@ -16,7 +16,7 @@ nav ul li a {
 }
 /*------------ Headers ------------------------------------------------------*/
 .heroimage{
-    background-image: url("https://source.unsplash.com/3xpalrYpiwo/1920x1280");
+    background-image: url("https://i.imgur.com/IVwgjZ5.jpg");
     background-position: center;
     background-size: cover;
     height: 75vh;
@@ -172,7 +172,6 @@ nav ul li a {
 .home-icons{
     font-size: 50px;
     padding: 40px 0px;
-    /*color: rgb(60, 140, 178);*/
     color: rgb(37, 37, 37);
 }
 
@@ -187,7 +186,7 @@ nav ul li a {
     position:absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* W3 schools vertical align */
+    transform: translate(-50%, -50%); /* Code sourced from W3 schools. url("https://www.w3schools.com/howto/howto_css_center-vertical.asp") */
 }
 
 #home-button{
@@ -313,7 +312,7 @@ nav ul li a {
     position: absolute;
     bottom:0;
     left:50%;
-    transform: translateX(-50%); /* Source: Stack Overflow */
+    transform: translateX(-50%); /* Code sourced from Stack Overflow. User:thecraighammond. url("https://stackoverflow.com/questions/32206116/position-absolute-left50-does-not-position-span-in-the-middle") */
 }
 
 .down-arrow .fa, #up-arrow .fa {
@@ -781,7 +780,7 @@ nav ul li:hover a{
     width: 130px;
     top: 50%;                            
     left: 50%;                           
-    transform: translate(-50%, -50%);    /* code sourced from freecodecamp.org */
+    transform: translate(-50%, -50%);   /* Code sourced from W3 schools. url("https://www.w3schools.com/howto/howto_css_center-vertical.asp") */
 }
 
 .footer-first-section, .footer-third-section {
@@ -821,7 +820,7 @@ nav ul li:hover a{
   to {
     background-position: 0 40%;
   }
-} 
+}           /* assisted by code from stack overflow. url("https://stackoverflow.com/questions/58110268/pan-background-image-animation") */
 
 #hero-quote-text {
     font-size: 2.2vw;
