@@ -157,7 +157,7 @@ full width background images (on large screens) to give a better aesthetic.
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors.
 
 HTML validation:
-- [Home]()
+- [Home](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshanekeran.github.io%2Fstickandbindle%2F)
 - [Trips]()
 - [Gallery]()
 - [Contact]()
