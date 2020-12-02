@@ -26,13 +26,21 @@ This is important as their target market is a younger audience who are likely to
 
 *As the site owner, I want*
 
-- 
-- 
-- 
-- 
+- To ensure my website is on standard with the websites of competitors in the travel industry.
+- To instil curiousity and excitement in site users around the trips we provide.
+- As a newly founded company to promote our brand throughout the site.
+- To ensure the website is viewable on desktops, laptops, tablets and mobile phones.
 
 ### Strategy
 
+The aim of the website is promote the services provided by Stick and Bindle 
+and give a brief background of the company since they are new and not well established in the market yet.
+The target market is the younger, thrill-seeking travelling enthusiat. The type who would enjoy getting out of their comfort zone and
+ venturing into the extremes of a country.
+
+ The Business Strategy which the website must fulfill is increasing brand awareness and to drive sales for the trips on offer.
+ We aim to achieve this by including the company logo inside the header and footer on each page and driving sales through the use
+ of imagery and enticing captions, detailing the experiences available on each trip.
 
 ### Scope
 
