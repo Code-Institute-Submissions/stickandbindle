@@ -27,3 +27,20 @@ This is important as their target market is a younger audience who are likely to
 *As the site owner, I want*
 
 - 
+- 
+- 
+- 
+
+### Strategy
+
+
+### Scope
+
+
+### Structure
+
+
+### Skeleton
+
+
+### Surface

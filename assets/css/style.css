@@ -712,6 +712,9 @@ nav ul li a {
 }
 
 .nav-container{
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
     flex-direction: row;
     height: 20vh;
 }
@@ -722,6 +725,8 @@ nav ul li a {
 
 nav ul {
     flex-direction: row;
+    -ms-flex-pack:center; /* For Internet explorer */
+    -webkit-box-pack: space-evenly; /* For safari */
     justify-content: space-evenly;
     margin-top: 1rem;
     background-color: transparent;
