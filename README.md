@@ -1,19 +1,17 @@
-# Stick and Bindle Website
+# Stick and Bindle 
 
 Stick and Bindle is a fictional adventure travel company based in Dublin, Ireland.
 The company offers unique trips to lesser travelled destinations for customers who want a change from generic holidays abroad.
-Whether that be riding on top of a tarin through the Sahara or herding livestock in the Mongolian steppe.
+Whether that be riding on top of a train through the Sahara or herding livestock in the Mongolian steppe.
 
 [View the live project by clicking here.](https://shanekeran.github.io/stickandbindle/)
 
-![mockup of the website on diffrent devices](assets/images/website-mockup.PNG "stickandbindle.ie")
+![mockup of the website on diffrent devices](assets/documents/mockup.PNG "stickandbindle.ie")
 
 ## User Experience (UX)
 ___
 ### Overview
-
-Stick and bindle's website is designed to be responsive on all screen sizes while still maintaining its visual appeal. 
-This is important as their target market is a younger audience who are likely to connect through their mobile device.
+I used user stories and the five planes of user experience design as a framework for planning the project.
 
 ### User stories
 
@@ -29,7 +27,7 @@ This is important as their target market is a younger audience who are likely to
 - To ensure my website is on standard with the websites of competitors in the travel industry.
 - To instil curiousity and excitement in site users around the trips we provide.
 - As a newly founded company to promote our brand throughout the site.
-- To ensure the website is viewable on desktops, laptops, tablets and mobile phones.
+- To ensure the website is responsive and maintains its visual appeal on desktops, laptops, tablets and mobile phones.
 
 ### Strategy
 
@@ -68,23 +66,102 @@ The website consists of four pages: Home, Trips, Gallery and Contact.
 These are ordered in the logical path of the user navigating through the site.
 
 1. Home.
-The home page features a large animated hero image and on larger screen sizes it has an inspirational quote on the side of the image.
-The main content of the home page will provide the user information on who the company is, what they do and don't offer.
-At the end of the page there is a call-to-action button to prompt the user to the next page.
+
+    The home page features a large animated hero image and on larger screen sizes it has an inspirational quote on the side of the image.
+    The main content of the home page will provide the user information on who the company is, what they do and don't offer.
+    At the end of the page there is a call-to-action button to prompt the user to the next page.
 
 2. Trips
-The trips page contains four cards for each destination, similar to a row of brochures in a travel agency. 
-Each card contains a small description and link to that particular destination on the page.
-Below the card section is four large background images with details of the each trip provided.
+
+    The trips page contains four cards for each destination, similar to a row of brochures in a travel agency. 
+    Each card contains a small description and link to that particular destination on the page.
+    Below the card section is four large background images with details of the each trip provided.
 
 3. Gallery
-The Gallery page has 9 images that give the user an idea of what they'll be getting up to on one of their trips.
+
+    The Gallery page has 9 images that give the user an idea of what they'll be getting up to on one of their trips.
 
 4. Contact
-The Contact page has a simple form, which asks for basic details and a text area to write a message. 
-Beneath the form is 3 testimonials with customer image, rating and short review.
+
+    The Contact page has a simple form, which asks for basic details and a text area to write a message. 
+    Beneath the form is 3 testimonials with customer image, rating and short review.
 
 ### Skeleton
 
+I used Balsamiq to create wireframes for each page. I designed a wire frame for desktop, tablet and mobile phone.
+
+- [Home](assets/documents/index-wireframe.png)
+- [Trips](assets/documents/tours-wireframe.png)
+- [Gallery](assets/documents/gallery-wireframe.png)
+- [Contact](assets/documents/contact-wireframe.png)
 
 ### Surface
+
+#### Colour
+The colour theme chosen for the website is blue(#5fa9cc) and grey (#ebe9e9 + #d4d4d4). I chose these colours as i felt they were simple yet visually appealing.
+They also match the hero image well.
+
+#### Typography
+I use a mixture of fonts throughout the site. Lato(sans-serif) is my main body font, I chose this as it is very readable. Raleway(sans-serif) is used for headings, Pridi(serif) for my navigation bar 
+and Neucha for my hero image quote. All fonts have backup default fonts in the event that we cannot connect to Google Fonts.
+
+#### Design 
+Overall the finished product looks very similar to the wireframes with the exception of the trips.html page. On completetion of the page, I felt the design looked poor so I changed the stucture to
+full width background images (on large screens) to give a better aesthetic.
+
+## Technologies used
+
+### Languages 
+- HTML5
+- CSS3
+
+### Frameworks, Libraries & Programs used
+1. Git 
+
+    Used for version control.
+
+2. GitHub 
+
+    Project files were pushed from Git to GitHub.
+
+3. Bootstrap 4.5.2
+
+    Bootstrp was used to make a collapsable navigation bar, responsive flex design for the gallery page, card templates on the trips page and a contact form template.
+
+4. Google Fonts
+
+    Google Fonts was used to import Lato, Raleway, Pridi and Neucha into styles.css.
+
+5. Font Awesome
+
+    Font Awesome was used to display social media icons in the footer, icons on the home page and star review icons in the testimonial section.
+
+6. Adobe Creative Suite
+
+    This was used to create the logo for Stick and Bindle.
+
+7. jQuery
+
+    jQuery in addition to Bootstrap, made the navbar responsive.
+
+8. Balsamiq
+
+    Balsamiq was used to create the wireframes for each page.
+
+9. Autoprefixer
+
+    This was used to help identify vendor prefixes I needed to add.
+
+## Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors.
+
+HTML validation:
+- [Home]()
+- [Trips]()
+- [Gallery]()
+- [Contact]()
+
+CSS Validation
+
+- [style.css]()
