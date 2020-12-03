@@ -3,7 +3,6 @@
 body{
     margin: 0;
     font-family: 'Lato', sans-serif;
-    font-display: swap;
 }
 
 h1,h2,h3 {
@@ -195,6 +194,11 @@ nav ul li a {
     border-radius: 30px;
     font-size: 4vw;
     padding: 10px 20px;
+}
+
+#home-button:hover{
+    background-color: rgb(49, 167, 223);
+    border: 2px solid rgb(46, 46, 46);
 }
 
 /*----- trips.html Main Content -------*/
@@ -712,9 +716,6 @@ nav ul li a {
 }
 
 .nav-container{
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
     flex-direction: row;
     height: 20vh;
 }

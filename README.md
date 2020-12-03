@@ -25,7 +25,7 @@ I used user stories and the five planes of user experience design as a framework
 *As the site owner, I want*
 
 - To ensure my website is on standard with the websites of competitors in the travel industry.
-- To instil curiousity and excitement in site users around the trips we provide.
+- To display vivid imagery in order to instil curiousity and excitement in site users around the trips we provide.
 - As a newly founded company to promote our brand throughout the site.
 - To ensure the website is responsive and maintains its visual appeal on desktops, laptops, tablets and mobile phones.
 
@@ -109,6 +109,7 @@ and Neucha for my hero image quote. All fonts have backup default fonts in the e
 Overall the finished product looks very similar to the wireframes with the exception of the trips.html page. On completetion of the page, I felt the design looked poor so I changed the stucture to
 full width background images (on large screens) to give a better aesthetic.
 
+
 ## Technologies used
 
 ### Languages 
@@ -158,10 +159,126 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 HTML validation:
 - [Home](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshanekeran.github.io%2Fstickandbindle%2F)
-- [Trips]()
-- [Gallery]()
-- [Contact]()
+- [Trips](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshanekeran.github.io%2Fstickandbindle%2Ftrips.html)
+- [Gallery](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshanekeran.github.io%2Fstickandbindle%2Fgallery.html)
+- [Contact](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshanekeran.github.io%2Fstickandbindle%2Fcontact.html)
 
 CSS Validation
 
 - [style.css]()
+
+### Testing the User stories
+
+#### Site User
+1. Recognise that Stick and Bindle is a travel website and to understand clearly what services they can provide to me.
+
+        a. The user will be met with a visual representation of the site when they view the main hero image which captures the essence of a classic roadtrip.
+        b. For further clarification, the content of the home page addresses who the company is and what service they provide.
+
+2. Feel confident regarding the legitimacy of the website by reading the reviews of previous customers and learn more about the company through their other social media platforms.
+
+        a. The user will be able to find links to facebook, twitter and instagram in the footer section of each page. This is where a user would normally look for these links.
+        b. There are also 3 customer testimonials on the contact page so interested users are given extra validation when thinking of connecting with the company.
+
+3. Easily able to contact the company if i have further questions regarding one of their available trips or if I'm interested in making a booking.
+
+        a. The Contact page is easily seen on the navigation bar. Upon entering the Contact page, the user is greeted with a contact form for contacting the company.
+        b. The form has been tested to ensure no field can be left blank when attempting to click the submit button. If a user does so, the browser will prompt them to enter the required information.
+
+4. Easily view the different destinations and activities on offer and short descriptions on each one to decide which trip appeals to me.
+
+        a. The user will be able to find the Trips page on the navigation bar.
+        b. There is also a call-to-action button on the home page labelled "Browse Destinations" which will take them to the Trips page.
+        c. When they reach the Trips page, they will have four cards for their respective tours. Each card links to a different section of the page with more information.
+
+#### Site Owner
+1. To ensure my website is on standard with the websites of competitors in the travel industry.
+
+        a. While this is subjective, I feel the design and features with respect to the scope of this project have matched those of the competitors such as Lupine Travel and Young Pioneer Tours.
+           
+2. I want to display vivid imagery in order to instil curiousity and excitement in site users around the trips we provide.
+
+        a. Large animated hero image on the home page.
+        b. Full screen width background images for each destination on the Trips page (when viewed on larger screens).
+        c. A collection of nine images on the gallery page.
+
+3. As a newly founded company to promote our brand throughout the site.
+
+        a. Company logo created in the Adobe Creative Suite and displayed at the center of the navigation bar on large screens and on the left of the mobile navigation bar.
+        b. The logo is also featured inside the footer of each page.
+
+4. To ensure the website is responsive and maintains its visual appeal on desktops, laptops, tablets and mobile phones.
+
+    a. Tested using Google Dev tools and responsinator. Website efficently scales up and down according to screen size.
+
+### Further Testing
+
+- Website has been tested on the following browsers, using the latest version available: Chrome, Edge, Safari, Firefox and Internet Explorer. The tests were successful.
+- I used Lighthouse to test each page for accessibility and performance.
+
+
+### Known Bugs and Fixes
+
+1. Images not displaying correctly, only alt text displaying.
+    Replaced image URL for direct image link.
+
+2. Down arrows on trips page were not centered correctly.
+    Added "transform: translateX(-50%);" to css positioning. This was sourced from Stack Overflow Code sourced from [Stack Overflow.]("https://stackoverflow.com/questions/32206116/position-absolute-left50-does-not-position-span-in-the-middle").
+
+
+## Deployment
+
+### Github
+
+This project is deployed using GitHub pages using the following process,
+
+### Deploying a GitHub Repository via GitHub Pages
+
+1. In your Repository section, select the Repository you wish to deploy.
+2. In the top horizontal Menu, locate and click the Settings link.
+3. Inside the Setting page, scroll down to locate the GitHub Pages Section.
+4. Under "Source", select the None tab and change it to "Master" and click Save.
+5. Finally once the page resets scroll back down to the GitHub Pages Section to see the following message "Your site is ready to be published at (Link to the GitHub Page Web Address)". It can take time for the link to open your project initially, so please don't be worried if it down not load immediately.
+
+### Forking the Github Repository
+
+You can fork a GitHub Repository to make a copy of the original repository to view or make changes without it affecting the original repository.
+
+1. Find the GitHub repository.
+2. At the top of the page to the right, under your account, click the Fork button.
+3. You will now have a copy of the repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the GitHub Repository
+2. Click the "Code" button and a dropdown menu will appear.
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. In Gitpod, change the directory to the location you would like the cloned directory to be located.
+5. Type "git clone", and paste the link you copied in step 3.
+6. Press Enter to have the local clone created.
+
+## Credits
+
+### Code
+
+- Stack Overflow
+
+- Bootstrap
+
+- Autoprefixer
+
+- Code Institute
+
+### Media
+
+- Unsplash
+
+- Wikipedia
+
+### Acknowledgements
+
+- My mentor, Antonio Rodriguez, for his helpful feedback and guidance.
+
+- My fellow Code Institute students for their suggestions.
+
+- Tutor support at Code Institue, for answering my technical questions.
