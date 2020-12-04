@@ -34,19 +34,19 @@ I used user stories and the five planes of user experience design as a framework
 The purpose of the website is promote the services provided by Stick and Bindle 
 and give a brief background of the company since they are a newly founded company and not well established in the market yet.
 The target market is the younger, thrill-seeking travelling enthusiat. The type who would enjoy getting out of their comfort zone and
- venturing into the extremes of a country.
+venturing into the extremes of a country.
 
- After reviewing competitor websites, I noted their use of large captivating imagery and marketing their trips as fun and unique. 
- This is somthing that the stick and bindle website needs to match otherwise it'll be deemed as boring in comparison.
+After reviewing competitor websites, I noted their use of large captivating imagery and marketing their trips as fun and unique. 
+This is somthing that the stick and bindle website needs to match otherwise it'll be deemed as boring in comparison.
 
- The strategy for the project is to implement the needs previously outlined in the user stories and to also meet the business goals.
+The strategy for the project is to implement the needs previously outlined in the user stories and to also meet the business goals.
 
- The Business goals which the website must fulfill is increasing brand awareness and to drive sales for the trips on offer.
- We aim to achieve this by including the company logo inside the header and footer on each page and driving business to consumer (B2C) sales through the use
- of imagery and enticing captions, detailing the experiences available on each trip. This will be an emotional trigger prompting the user
- to get in touch via the contact form.
+The Business goals which the website must fulfill is increasing brand awareness and to drive sales for the trips on offer.
+We aim to achieve this by including the company logo inside the header and footer on each page and driving business to consumer (B2C) sales through the use
+of imagery and enticing captions, detailing the experiences available on each trip. This will be an emotional trigger prompting the user
+to get in touch via the contact form.
 
- Actioning the needs outlined by each party in the user stories is also part of the overall strategy.
+Actioning the needs outlined by each party in the user stories is also part of the overall strategy.
 
 ### Scope
 
@@ -58,6 +58,9 @@ The features to be included on the website are:
 - Hover captions on gallery images.
 - Arrows on the trips page that take the user to the next destination/further down the page.
 - Navigation bar with a logo in the center. On smaller devices it will become a drop down menu.
+
+Features to be added in a later update:
+- An online payment system so customers can book their trip before needing to contact the company to arrange dates and plans etc.
 
 
 ### Structure
@@ -111,14 +114,14 @@ full width background images (on large screens) to give a better aesthetic.
 
 
 ## Technologies used
-
+___ 
 ### Languages 
 - HTML5
 - CSS3
 
 ### Frameworks, Libraries & Programs used
 1. Git 
-
+    
     Used for version control.
 
 2. GitHub 
@@ -149,11 +152,9 @@ full width background images (on large screens) to give a better aesthetic.
 
     Balsamiq was used to create the wireframes for each page.
 
-9. Autoprefixer
-
-    This was used to help identify vendor prefixes I needed to add.
 
 ## Testing
+___
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors.
 
@@ -171,45 +172,44 @@ CSS Validation
 
 #### Site User
 1. Recognise that Stick and Bindle is a travel website and to understand clearly what services they can provide to me.
-
-        a. The user will be met with a visual representation of the site when they view the main hero image which captures the essence of a classic roadtrip.
-        b. For further clarification, the content of the home page addresses who the company is and what service they provide.
+    * The user will be met with a visual representation of the site when they view the main hero image which captures the essence of a classic roadtrip.
+    * For further clarification, the content of the home page addresses who the company is and what service they provide.
 
 2. Feel confident regarding the legitimacy of the website by reading the reviews of previous customers and learn more about the company through their other social media platforms.
 
-        a. The user will be able to find links to facebook, twitter and instagram in the footer section of each page. This is where a user would normally look for these links.
-        b. There are also 3 customer testimonials on the contact page so interested users are given extra validation when thinking of connecting with the company.
+    * The user will be able to find links to facebook, twitter and instagram in the footer section of each page. This is where a user would normally look for these links.
+    * There are also 3 customer testimonials on the contact page so interested users are given extra validation when thinking of connecting with the company.
 
 3. Easily able to contact the company if i have further questions regarding one of their available trips or if I'm interested in making a booking.
 
-        a. The Contact page is easily seen on the navigation bar. Upon entering the Contact page, the user is greeted with a contact form for contacting the company.
-        b. The form has been tested to ensure no field can be left blank when attempting to click the submit button. If a user does so, the browser will prompt them to enter the required information.
+    * The Contact page is easily seen on the navigation bar. Upon entering the Contact page, the user is greeted with a contact form for contacting the company.
+    * The form has been tested to ensure no field can be left blank when attempting to click the submit button. If a user does so, the browser will prompt them to enter the required information.
 
 4. Easily view the different destinations and activities on offer and short descriptions on each one to decide which trip appeals to me.
 
-        a. The user will be able to find the Trips page on the navigation bar.
-        b. There is also a call-to-action button on the home page labelled "Browse Destinations" which will take them to the Trips page.
-        c. When they reach the Trips page, they will have four cards for their respective tours. Each card links to a different section of the page with more information.
+    * The user will be able to find the Trips page on the navigation bar.
+    * There is also a call-to-action button on the home page labelled "Browse Destinations" which will take them to the Trips page.
+    * When they reach the Trips page, they will have four cards for their respective tours. Each card links to a different section of the page with more information.
 
 #### Site Owner
 1. To ensure my website is on standard with the websites of competitors in the travel industry.
 
-        a. While this is subjective, I feel the design and features with respect to the scope of this project have matched those of the competitors such as Lupine Travel and Young Pioneer Tours.
+    * While this is subjective, I feel the design and features with respect to the scope of this project have matched those of the competitors such as Lupine Travel and Young Pioneer Tours.
            
 2. I want to display vivid imagery in order to instil curiousity and excitement in site users around the trips we provide.
 
-        a. Large animated hero image on the home page.
-        b. Full screen width background images for each destination on the Trips page (when viewed on larger screens).
-        c. A collection of nine images on the gallery page.
+    * Large animated hero image on the home page.
+    * Full screen width background images for each destination on the Trips page (when viewed on larger screens).
+    * A collection of nine images on the gallery page.
 
 3. As a newly founded company to promote our brand throughout the site.
 
-        a. Company logo created in the Adobe Creative Suite and displayed at the center of the navigation bar on large screens and on the left of the mobile navigation bar.
-        b. The logo is also featured inside the footer of each page.
+    * Company logo created in the Adobe Creative Suite and displayed at the center of the navigation bar on large screens and on the left of the mobile navigation bar.
+    * The logo is also featured inside the footer of each page.
 
 4. To ensure the website is responsive and maintains its visual appeal on desktops, laptops, tablets and mobile phones.
 
-    a. Tested using Google Dev tools and responsinator. Website efficently scales up and down according to screen size.
+    * Tested using Google Dev tools and responsinator. Website efficently scales up and down according to screen size.
 
 ### Further Testing
 
@@ -220,14 +220,16 @@ CSS Validation
 ### Known Bugs and Fixes
 
 1. Images not displaying correctly, only alt text displaying.
-    Replaced image URL for direct image link.
+    Image links were not direct image links.
 
-2. Down arrows on trips page were not centered correctly.
+2. Arrow icons on the Trips page were not centered correctly.
     Added "transform: translateX(-50%);" to css positioning. This was sourced from Stack Overflow Code sourced from [Stack Overflow.]("https://stackoverflow.com/questions/32206116/position-absolute-left50-does-not-position-span-in-the-middle").
 
+3. On mobile and tablet, when the navigation bar toggler icon was selected, the menu items would drop down but were hidden behind the main content divs.
+    Added z-index to the navigation bar to make it display in front of all other content.
 
 ## Deployment
-
+___
 ### Github
 
 This project is deployed using GitHub pages using the following process,
@@ -258,22 +260,36 @@ You can fork a GitHub Repository to make a copy of the original repository to vi
 6. Press Enter to have the local clone created.
 
 ## Credits
-
+___
 ### Code
 
 - Stack Overflow
 
-- Bootstrap
+    Stack Overflow helped solve an issue with my navbar not being centered on internet explorer. ([Source](https://stackoverflow.com/questions/43979702/display-flex-not-working-on-internet-explorer/43979973)).
+    and absolute positioned icons not being centered on the trips page. ([Source](https://stackoverflow.com/questions/32206116/position-absolute-left50-does-not-position-span-in-the-middle)).
 
-- Autoprefixer
+- Bootstrap
+    
+    I used Bootstrap for my navigation bar and also on my gallery page to make it responsive. 
+    In addition, I took advantage of a [bootstrap contact form template](https://bootsnipp.com/snippets/95Oj) and a [card template](https://startbootstrap.com/template/heroic-features) on my trips page.
 
 - Code Institute
+
+    I implemented what I have learned over the last couple of months in the HTML, CSS and User centric modules.
 
 ### Media
 
 - Unsplash
 
+    I used [this unsplash image](https://unsplash.com/photos/3xpalrYpiwo) on my home page. Original photo by Nick Dunlap.
+
 - Wikipedia
+
+    I feature four country flags on the site, all sourced from Wikipedia.
+    1. [Ethiopia](https://en.wikipedia.org/wiki/Flag_of_Ethiopia#/media/File:Flag_of_Ethiopia.svg)
+    2. [India](https://en.wikipedia.org/wiki/Flag_of_India#/media/File:Flag_of_India.svg)
+    3. [Mongolia](https://en.wikipedia.org/wiki/Flag_of_Mongolia#/media/File:Flag_of_Mongolia.svg)
+    4. [Mauritania](https://en.wikipedia.org/wiki/Flag_of_Mauritania#/media/File:Flag_of_Mauritania.svg)
 
 ### Acknowledgements
 
