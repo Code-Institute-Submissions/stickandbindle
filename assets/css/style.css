@@ -475,6 +475,7 @@ nav ul li a {
     height: auto;
     padding-top: 10px;
     background-color: rgb(95, 169, 204); 
+    color: black;
 }
 
 .footer-first-section, .footer-second-section, .footer-third-section { 
@@ -509,6 +510,10 @@ nav ul li a {
     margin: 10px 0px;
 } 
 
+.footer-email a {
+    text-decoration: none;
+    color: black;
+}
 
 .footer-icons {
     width: 100%;

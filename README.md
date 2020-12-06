@@ -6,7 +6,7 @@ Whether that be riding on top of a train through the Sahara or herding livestock
 
 [View the live project by clicking here.](https://shanekeran.github.io/stickandbindle/)
 
-![mockup of the website on diffrent devices](assets/documents/mockup.PNG "stickandbindle.ie")
+![mockup of the website on diffrent devices](assets/documents/mockup.PNG "stickandbindle display")
 
 
 
@@ -95,10 +95,10 @@ These are ordered in the logical path of the user navigating through the site.
 
 I used Balsamiq to create wireframes for each page. I designed a wire frame for desktop, tablet and mobile phone.
 
-- [Home](assets/documents/index-wireframe.png)
-- [Trips](assets/documents/tours-wireframe.png)
-- [Gallery](assets/documents/gallery-wireframe.png)
-- [Contact](assets/documents/contact-wireframe.png)
+- [Home](assets/documents/wireframes/index-wireframe.png)
+- [Trips](assets/documents/wireframes/tours-wireframe.png)
+- [Gallery](assets/documents/wireframes/gallery-wireframe.png)
+- [Contact](assets/documents/wireframes/contact-wireframe.png)
 
 ### Surface
 
@@ -162,15 +162,15 @@ ___
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors.
 
-HTML validation:
+### HTML validation:
 - [Home](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshanekeran.github.io%2Fstickandbindle%2F)
 - [Trips](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshanekeran.github.io%2Fstickandbindle%2Ftrips.html)
 - [Gallery](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshanekeran.github.io%2Fstickandbindle%2Fgallery.html)
 - [Contact](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshanekeran.github.io%2Fstickandbindle%2Fcontact.html)
 
-CSS Validation
+### CSS Validation
 
-- [style.css]()
+- [style.css](assets/documents/css-validation.JPG)
 
 ### Testing the User stories
 
@@ -218,6 +218,7 @@ CSS Validation
 ### Further Testing
 
 - Website has been tested on the following browsers, using the latest version available: Chrome, Edge, Safari, Firefox and Internet Explorer. The tests were successful.
+- All internal and external links on the website have been tested and work as intended. Tested by clicking every link on each page.
 - I used Lighthouse to test each page for accessibility and performance.
     * Home [Desktop](assets/documents/lighthouse/index-desktop.JPG) \ [Mobile](assets/documents/lighthouse/index-mobile.JPG)
     * Trips [Desktop](assets/documents/lighthouse/trips-desktop.JPG) \ [Mobile](assets/documents/lighthouse/trips-mobile.JPG)
@@ -226,7 +227,7 @@ CSS Validation
 
     I am happy with the overall result, although mobile could use some further improvements.
 
-    After the intial results, I decreased the size of all images to speed up load times and added rel="noopener noreferrer" to all external links for security reasons.
+    After the intial results, I decreased the size of all images to speed up load times, preloaded my hero image and added rel="noopener noreferrer" to all external links for security reasons.
 
 ### Known Bugs and Fixes
 
@@ -286,13 +287,20 @@ ___
 
 - Stack Overflow
 
-    Stack Overflow helped solve an issue with my navbar not being centered on internet explorer. ([Source](https://stackoverflow.com/questions/43979702/display-flex-not-working-on-internet-explorer/43979973)).
-    and absolute positioned icons not being centered on the trips page. ([Source](https://stackoverflow.com/questions/32206116/position-absolute-left50-does-not-position-span-in-the-middle)).
+    Stack Overflow helped solve these issues features:
+    
+    * My navbar not being centered on internet explorer. ([Source](https://stackoverflow.com/questions/43979702/display-flex-not-working-on-internet-explorer/43979973)).
+    * Absolute positioned icons not being centered on the trips page. ([Source](https://stackoverflow.com/questions/32206116/position-absolute-left50-does-not-position-span-in-the-middle)).
+    * Figuring out how to add an animated pan to my hero image. ([Source](https://stackoverflow.com/questions/58110268/pan-background-image-animation)).
 
 - Bootstrap
     
     I used Bootstrap for my navigation bar and also on my gallery page to make it responsive. 
     In addition, I took advantage of a [bootstrap contact form template](https://bootsnipp.com/snippets/95Oj) and a [card template](https://startbootstrap.com/template/heroic-features) on my trips page.
+
+- https://addyosmani.com/
+
+    To improve my Google Lighthouse score, I used this line of code "<!--<link rel="preload" as="image" href="hero-image.jpg"> -->" to preload my hero image.
 
 - Code Institute
 
