@@ -14,7 +14,7 @@ nav ul li a {
     font-weight: 300;
 }
 /*------------ Headers ------------------------------------------------------*/
-.heroimage{
+#heroimage{
     background-image: url("https://i.imgur.com/IVwgjZ5.jpg");
     background-position: center;
     background-size: cover;
@@ -412,7 +412,7 @@ nav ul li a {
     flex-direction: row;
 }
 
-.review-one{
+#review-one{
     background-color: #ebe9e9; 
     width:100%;
     height: auto;
@@ -438,13 +438,13 @@ nav ul li a {
     margin-right: auto;
 }
 
-.review-two{
+#review-two{
     background-color: #d4d4d4;
     width:100%;
     height: auto;
 }
 
-.review-three{
+#review-three{
     background-color: #ebe9e9;
     width:100%;
     height: auto;
@@ -829,7 +829,7 @@ nav ul li:hover a{
     
 }
 
-.heroimage{
+#heroimage{
     animation-name: image-zoom;         /*source??*/
     animation-duration: 6s;
     animation-fill-mode: forwards;
