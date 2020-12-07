@@ -6,7 +6,7 @@ Whether that be riding on top of a train through the Sahara or herding livestock
 
 [View the live project by clicking here.](https://shanekeran.github.io/stickandbindle/)
 
-![mockup of the website on diffrent devices](assets/documents/mockup.PNG "stickandbindle display")
+![mockup of the website on different devices](assets/documents/mockup.PNG "stickandbindle display")
 
 
 
@@ -39,7 +39,7 @@ The target market is the younger, thrill-seeking travelling enthusiat. The type 
 venturing into the extremes of a country.
 
 After reviewing competitor websites, I noted their use of large captivating imagery and marketing their trips as fun and unique. 
-This is somthing that the stick and bindle website needs to match otherwise it'll be deemed as boring in comparison.
+This is something that the stick and bindle website needs to match otherwise it'll be deemed as boring in comparison.
 
 The strategy for the project is to implement the needs previously outlined in the user stories and to also meet the business goals.
 
