@@ -131,27 +131,31 @@ ___
 
     Project files were pushed from Git to GitHub.
 
-3. Bootstrap 4.5.2
+3. Gitpod
+
+    I used Gitpod's dev environment to write the code for my project.
+
+4. Bootstrap 4.5.2
 
     Bootstrp was used to make a collapsable navigation bar, responsive flex design for the gallery page, card templates on the trips page and a contact form template.
 
-4. Google Fonts
+5. Google Fonts
 
     Google Fonts was used to import Lato, Raleway, Pridi and Neucha into styles.css.
 
-5. Font Awesome
+6. Font Awesome
 
     Font Awesome was used to display social media icons in the footer, icons on the home page and star review icons in the testimonial section.
 
-6. Adobe Creative Suite
+7. Adobe Creative Suite
 
     This was used to create the logo for Stick and Bindle.
 
-7. jQuery
+8. jQuery
 
     jQuery in addition to Bootstrap, made the navbar responsive.
 
-8. Balsamiq
+9. Balsamiq
 
     Balsamiq was used to create the wireframes for each page.
 
