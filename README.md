@@ -304,7 +304,7 @@ ___
 
 - https://addyosmani.com/
 
-    To improve my Google Lighthouse score, I used this line of code "<!--<link rel="preload" as="image" href="hero-image.jpg"> -->" to preload my hero image.
+    To improve my Google Lighthouse score, I used this line of code "link rel="preload" as="image" href="hero-image.jpg" to preload my hero image.
 
 - Code Institute
 
