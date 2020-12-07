@@ -159,6 +159,10 @@ ___
 
     Balsamiq was used to create the wireframes for each page.
 
+10. Imgur
+
+    I used imgur.com to host most of my site images.
+
 
 
 ## Testing
